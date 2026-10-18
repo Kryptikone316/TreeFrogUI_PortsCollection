@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "vvvvvv",
+  "name": "VVVVVV",
+  "launcher": "VVVVVV.sh",
+  "launch": {
+    "type": "libretro",
+    "binary": "vvvvvv_libretro.so",
+    "content": "data.zip"
+  },
+  "required_file_sets": [["data.zip"]],
+  "setup_guide": "docs/setup/vvvvvv.md",
+  "setup_guide_url": "https://github.com/tzubertowski/TreeFrogUI_PortsCollection/blob/main/docs/setup/vvvvvv.md"
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "diablo",
+  "name": "Diablo 1",
+  "launcher": "Diablo 1.sh",
+  "launch": {
+    "type": "native",
+    "binary": "devilutionx",
+    "args": ["--verbose", "--diablo", "-n"]
+  },
+  "required_file_sets": [["DIABDAT.MPQ"]],
+  "setup_guide": "docs/setup/diablo.md",
+  "setup_guide_url": "https://github.com/tzubertowski/TreeFrogUI_PortsCollection/blob/main/docs/setup/diablo.md"
+}

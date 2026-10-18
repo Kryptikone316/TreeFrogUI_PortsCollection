@@ -1,0 +1,24 @@
+[submodule "ports/classicube/source"]
+	path = ports/classicube/source
+	url = https://github.com/tzubertowski/FroggyCraft.git
+[submodule "ports/diablo/source"]
+	path = ports/diablo/source
+	url = https://github.com/tzubertowski/FroggyDiablo.git
+[submodule "ports/duke3d/source"]
+	path = ports/duke3d/source
+	url = https://github.com/Synaps33/FroggyDuke.git
+[submodule "ports/mcpe/source"]
+	path = ports/mcpe/source
+	url = https://github.com/tzubertowski/FroggyPE.git
+[submodule "ports/openclaw/source"]
+	path = ports/openclaw/source
+	url = https://github.com/tzubertowski/FroggyClaw.git
+[submodule "ports/openlara/source"]
+	path = ports/openlara/source
+	url = https://github.com/tzubertowski/TreeFrogUI_OpenLara.git
+[submodule "ports/undertale/source"]
+	path = ports/undertale/source
+	url = https://github.com/tzubertowski/TreeFrogUI_FroggyTale.git
+[submodule "ports/vvvvvv/source"]
+	path = ports/vvvvvv/source
+	url = https://github.com/tzubertowski/TreeFrogUI_VVVVVV.git

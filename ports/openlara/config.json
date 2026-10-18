@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "openlara",
+  "name": "OpenLara",
+  "launcher": "OpenLara.sh",
+  "launch": {
+    "type": "libretro",
+    "binary": "openlara_libretro.so",
+    "content": "Start OpenLara.gba"
+  },
+  "required_file_sets": [["LEVEL1.PHD"]],
+  "setup_guide": "docs/setup/openlara.md",
+  "setup_guide_url": "https://github.com/tzubertowski/TreeFrogUI_PortsCollection/blob/main/docs/setup/openlara.md"
+}

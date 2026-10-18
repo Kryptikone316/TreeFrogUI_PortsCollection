@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "undertale",
+  "name": "Undertale",
+  "launcher": "Undertale.sh",
+  "launch": {
+    "type": "libretro",
+    "binary": "butterscotch_libretro.so",
+    "content": "Start Undertale.butterscotch"
+  },
+  "required_file_sets": [
+    ["game.unx", "ATLAS.BIN", "ATLAS.RGBA4444"],
+    [".data/game.unx", ".data/ATLAS.BIN", ".data/ATLAS.RGBA4444"]
+  ],
+  "setup_guide": "docs/setup/undertale.md",
+  "setup_guide_url": "https://github.com/tzubertowski/TreeFrogUI_PortsCollection/blob/main/docs/setup/undertale.md"
+}

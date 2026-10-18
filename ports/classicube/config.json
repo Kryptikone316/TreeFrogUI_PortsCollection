@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "classicube",
+  "name": "ClassiCube",
+  "launcher": "ClassiCube.sh",
+  "launch": {
+    "type": "libretro",
+    "binary": "classicube_libretro.so",
+    "content": "ClassiCube.classicube"
+  },
+  "required_file_sets": [],
+  "setup_guide": "docs/setup/classicube.md",
+  "setup_guide_url": "https://github.com/tzubertowski/TreeFrogUI_PortsCollection/blob/main/docs/setup/classicube.md"
+}

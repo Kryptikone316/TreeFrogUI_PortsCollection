@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "duke3d",
+  "name": "Duke Nukem 3D",
+  "launcher": "Duke Nukem 3D.sh",
+  "launch": {
+    "type": "libretro",
+    "binary": "duke3d_libretro.so",
+    "content": "Start Duke Nukem 3D.duke3d"
+  },
+  "required_file_sets": [["DUKE3D.GRP", "DUKE.RTS"]],
+  "setup_guide": "docs/setup/duke3d.md",
+  "setup_guide_url": "https://github.com/tzubertowski/TreeFrogUI_PortsCollection/blob/main/docs/setup/duke3d.md"
+}

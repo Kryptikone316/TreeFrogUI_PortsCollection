@@ -1,0 +1,31 @@
+name: Publish ports
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: python3 tools/validate_ports.py
+      - run: python3 tools/build_release.py
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ports-${{ github.run_number }}
+          name: Ports collection ${{ github.run_number }}
+          make_latest: true
+          generate_release_notes: true
+          files: |
+            dist/TreeFrogUI-Ports-standalone.zip
+            dist/TreeFrogUI-Ports-requiring-game-data.zip

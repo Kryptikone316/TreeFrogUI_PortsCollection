@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "openclaw",
+  "name": "Captain Claw",
+  "launcher": "Captain Claw.sh",
+  "launch": {
+    "type": "libretro",
+    "binary": "openclaw_libretro.so",
+    "content": "Start Captain Claw.claw"
+  },
+  "required_file_sets": [["CLAW.REZ"]],
+  "setup_guide": "docs/setup/openclaw.md",
+  "setup_guide_url": "https://github.com/tzubertowski/TreeFrogUI_PortsCollection/blob/main/docs/setup/openclaw.md"
+}
