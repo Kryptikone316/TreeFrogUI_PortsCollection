@@ -24,7 +24,11 @@ def package(archive, ports):
         launcher = port["launcher"]
         for source in sorted(directory.rglob("*")):
             relative = source.relative_to(directory)
-            if relative.parts[0] == "source" or not source.is_file():
+            if (
+                relative.parts[0] in {"source", "local-data"}
+                or relative.name == ".gitignore"
+                or not source.is_file()
+            ):
                 continue
             add_file(archive, source, (Path("roms/ports") / port["id"] / relative).as_posix())
         wrapper = (

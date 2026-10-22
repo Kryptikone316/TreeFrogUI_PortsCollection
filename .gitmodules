@@ -22,3 +22,6 @@
 [submodule "ports/vvvvvv/source"]
 	path = ports/vvvvvv/source
 	url = https://github.com/tzubertowski/TreeFrogUI_VVVVVV.git
+[submodule "ports/spacecadet/source"]
+	path = ports/spacecadet/source
+	url = https://github.com/Synaps33/FroggySpacePinbal.git

@@ -13,6 +13,7 @@ archives.
   <tr>
     <td align="center"><a href="docs/setup/classicube.md"><img src="ports/classicube/boxart.png" width="150" alt="ClassiCube floppy box art"><br><strong>ClassiCube</strong></a><br>Standalone</td>
     <td align="center"><a href="docs/setup/diablo.md"><img src="ports/diablo/boxart.png" width="150" alt="Diablo floppy box art"><br><strong>Diablo 1</strong></a><br>Game data required</td>
+    <td align="center"><a href="docs/setup/spacecadet.md"><img src="ports/spacecadet/boxart.png" width="150" alt="Space Cadet Pinball floppy box art"><br><strong>Space Cadet Pinball</strong></a><br>Game data required</td>
     <td align="center"><a href="docs/setup/duke3d.md"><img src="ports/duke3d/boxart.png" width="150" alt="Duke Nukem 3D floppy box art"><br><strong>Duke Nukem 3D</strong></a><br>Game data required</td>
     <td align="center"><a href="docs/setup/mcpe.md"><img src="ports/mcpe/boxart.png" width="150" alt="Minecraft PE floppy box art"><br><strong>Minecraft PE</strong></a><br>Game data required</td>
   </tr>

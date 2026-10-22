@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "spacecadet",
+  "name": "Space Cadet Pinball",
+  "launcher": "SpaceCadet.sh",
+  "launch": {
+    "type": "libretro",
+    "binary": "spacecadet_libretro.so",
+    "content": "PINBALL.DAT"
+  },
+  "required_file_sets": [["PINBALL.DAT", "PINBALL2.MID"]],
+  "setup_guide": "docs/setup/spacecadet.md",
+  "setup_guide_url": "https://github.com/tzubertowski/TreeFrogUI_PortsCollection/blob/main/docs/setup/spacecadet.md"
+}
