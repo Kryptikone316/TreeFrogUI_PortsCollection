@@ -25,3 +25,6 @@
 [submodule "ports/spacecadet/source"]
 	path = ports/spacecadet/source
 	url = https://github.com/Synaps33/FroggySpacePinbal.git
+[submodule "ports/froggymania/source"]
+	path = ports/froggymania/source
+	url = https://github.com/tzubertowski/TreeFrogUI_FroggyMania.git

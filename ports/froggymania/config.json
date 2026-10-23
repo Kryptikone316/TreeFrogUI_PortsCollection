@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "froggymania",
+  "name": "FroggyMania",
+  "launcher": "FroggyMania.sh",
+  "launch": {
+    "type": "libretro",
+    "binary": "froggymania_libretro.so",
+    "content": "Data.rsdk"
+  },
+  "required_file_sets": [["Data.rsdk"]],
+  "setup_guide": "docs/setup/froggymania.md",
+  "setup_guide_url": "https://github.com/tzubertowski/TreeFrogUI_PortsCollection/blob/main/docs/setup/froggymania.md"
+}
