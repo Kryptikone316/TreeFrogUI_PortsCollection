@@ -28,3 +28,6 @@
 [submodule "ports/froggymania/source"]
 	path = ports/froggymania/source
 	url = https://github.com/tzubertowski/TreeFrogUI_FroggyMania.git
+[submodule "ports/hcl/source"]
+	path = ports/hcl/source
+	url = https://github.com/Kryptikone316/hydracastlelabyrinth.git

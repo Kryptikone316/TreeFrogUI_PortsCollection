@@ -1,0 +1,14 @@
+Hydra Castle Labyrinth (Datafrog SF3500 port)
+
+Original game: E. Hashimoto (a.k.a. Buster), http://hp.vector.co.jp/authors/VA025956/
+  The game's data (graphics, music, maps, text) is his work and is NOT included in this
+  package. See the setup guide for where to get it.
+3DS port the code is based on: an anonymous contributor (credited in the upstream README)
+Linux/SDL version and upstream repository: ptitSeb, https://github.com/ptitSeb/hydracastlelabyrinth
+SF3500 platform backend (src/sf3500/): AthruZ, https://github.com/Kryptikone316/hydracastlelabyrinth (branch sf3500)
+OGG Vorbis decoding: stb_vorbis by Sean Barrett, public domain / MIT (see stb_vorbis.txt)
+
+Source code for this port is the pinned "source" submodule of this repository.
+The port's code is licensed under the GNU General Public License, version 2
+(hydracastlelabyrinth-GPLv2.txt). The upstream README applies the GPLv2 to the code; it does
+not state redistribution terms for the original game's data.
