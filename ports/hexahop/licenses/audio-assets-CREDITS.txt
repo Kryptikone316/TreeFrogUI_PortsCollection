@@ -1,0 +1,34 @@
+Attribution for bundled "-nonfree" music/SFX assets (not public domain -
+Creative Commons license terms apply, per each asset's own .xml sidecar
+file shipped by the upstream Hex-a-hop 1.1.0 release).
+
+Music:
+  music-ending-nonfree.ogg   - "remaxim", Creative Commons BY-NC-SA 3.0
+                               http://creativecommons.org/licenses/by-nc-sa/3.0/
+  music-game-nonfree.ogg     - "remaxim", Creative Commons BY-NC-SA 3.0
+  music-game-nonfree-1.ogg   - "remaxim", Creative Commons BY-NC-SA 3.0
+
+Sound effects (source: Freesound.org, assembled by "remaxim"):
+  sound-builder-nonfree.ogg       - Creative Commons Sampling Plus 1.0
+                                    http://www.freesound.org/samplesViewSingle.php?id=17814
+  sound-collapse-nonfree.ogg      - Creative Commons Sampling Plus 1.0
+                                    http://www.freesound.org/samplesViewSingle.php?id=19312
+  sound-lift-up-nonfree.ogg       - Creative Commons Sampling Plus 1.0
+                                    http://www.freesound.org/samplesViewSingle.php?id=70787
+  sound-lift-down-nonfree.ogg     - Creative Commons Sampling Plus 1.0
+                                    http://www.freesound.org/samplesViewSingle.php?id=70787
+  sound-spinner-nonfree.ogg       - Creative Commons Sampling Plus 1.0
+                                    http://www.freesound.org/samplesViewSingle.php?id=72450
+  sound-found-antiice-nonfree.ogg - Creative Commons Sampling Plus 1.0
+                                    http://www.freesound.org/samplesViewSingle.php?id=18174
+  sound-found-jump-nonfree.ogg    - Creative Commons Sampling Plus 1.0
+                                    http://www.freesound.org/samplesViewSingle.php?id=30161
+
+License text - Creative Commons Sampling Plus 1.0:
+  http://creativecommons.org/licenses/sampling+/1.0/
+License text - Creative Commons BY-NC-SA 3.0:
+  http://creativecommons.org/licenses/by-nc-sa/3.0/
+
+All other music/SFX assets (without the "-nonfree" suffix) are the
+original author's own free-licensed assets, covered by the game's main
+GPLv2 license.
