@@ -15,6 +15,7 @@ archives.
   <tr>
     <td align="center"><a href="docs/setup/classicube.md"><img src="ports/classicube/boxart.png" width="150" alt="ClassiCube floppy box art"><br><strong>ClassiCube</strong></a></td>
     <td align="center"><a href="docs/setup/hexahop.md"><img src="ports/hexahop/boxart.png" width="150" alt="Hex-a-hop floppy box art"><br><strong>Hex-a-hop</strong></a></td>
+    <td align="center"><a href="docs/setup/nikwi.md"><img src="ports/nikwi/boxart.png" width="150" alt="Nikwi Deluxe floppy box art"><br><strong>Nikwi Deluxe</strong></a></td>
     <td align="center"><a href="docs/setup/sdlzombies.md"><img src="ports/sdlzombies/boxart.png" width="150" alt="SDL Zombies floppy box art"><br><strong>SDL Zombies</strong></a></td>
   </tr>
 </table>

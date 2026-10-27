@@ -1,0 +1,9 @@
+# Audio filter settings (plain text; edit and relaunch, no rebuild needed).
+#
+# A small bass and treble adjustment for this device's speaker, applied to the
+# sound effects (and to the music, if you add some). master_gain is the overall
+# volume. 1.0 leaves a value unchanged. Set enabled=0 to turn the filter off.
+enabled=1
+master_gain=1.0
+bass_gain=1.15
+treble_gain=1.1
