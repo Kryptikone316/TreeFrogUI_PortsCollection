@@ -31,3 +31,6 @@
 [submodule "ports/hexahop/source"]
 	path = ports/hexahop/source
 	url = https://github.com/Kryptikone316/hex-a-hop.git
+[submodule "ports/sdlzombies/source"]
+	path = ports/sdlzombies/source
+	url = https://github.com/Kryptikone316/sdlzombies.git
