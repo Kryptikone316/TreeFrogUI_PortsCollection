@@ -1,0 +1,13 @@
+TinySTG (Datafrog SF3500 port)
+
+Original game: kuran_kuran, (c) 2022, https://github.com/kuran-kuran/TinySTG
+  MIT licence, see tinystg-kuran_kuran.txt. The BGM file TinySTG/bgm.adp is the
+  file shipped in the upstream repository.
+SF3500 platform backend (src/TinyLibrary/SDL2/ hwdisp, hwaudio, joykey, hwdsp, tfenv,
+  and the Screen, SoundStream, Controller and main changes): AthruZ,
+  https://github.com/Kryptikone316/TinySTG (branch sf3500)
+Device selection through /tmp/tfdevice.env: from TreeFrogUI's hijack script
+  (zhijack.tpl.sh), pointed out by Maheshivara. The display wrapper is derived from
+  TreeFrogUI's pico286 SF3000 patch.
+
+Source code for this port is the pinned "source" submodule of this repository.
