@@ -25,6 +25,9 @@ archives.
     <td align="center"><a href="docs/setup/froggymania.md"><img src="ports/froggymania/boxart.png" width="150" alt="FroggyMania floppy box art"><br><strong>FroggyMania</strong></a><br>Game data required</td>
     <td align="center"><a href="docs/setup/hexahop.md"><img src="ports/hexahop/boxart.png" width="150" alt="Hex-a-hop floppy box art"><br><strong>Hex-a-hop</strong></a><br>Standalone</td>
   </tr>
+  <tr>
+    <td align="center"><a href="docs/setup/hcl.md"><img src="ports/hcl/boxart.png" width="150" alt="Hydra Castle Labyrinth floppy box art"><br><strong>Hydra Castle Labyrinth</strong></a><br>Game data required</td>
+  </tr>
 </table>
 
 ## How to install

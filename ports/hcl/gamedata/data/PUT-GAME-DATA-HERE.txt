@@ -1,0 +1,10 @@
+Hydra Castle Labyrinth: game data goes in THIS folder.
+
+Copy everything from the "data" folder of
+https://github.com/ptitSeb/hydracastlelabyrinth
+into here, so that this folder directly contains:
+
+  bmp.qda   en.dat   jp.dat   map/   midi/   obj/   wav/
+
+Full instructions:
+https://github.com/tzubertowski/TreeFrogUI_PortsCollection/blob/main/docs/setup/hcl.md
