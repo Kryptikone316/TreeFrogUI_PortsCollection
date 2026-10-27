@@ -31,3 +31,6 @@
 [submodule "ports/hcl/source"]
 	path = ports/hcl/source
 	url = https://github.com/Kryptikone316/hydracastlelabyrinth.git
+[submodule "ports/hexahop/source"]
+	path = ports/hexahop/source
+	url = https://github.com/Kryptikone316/hex-a-hop.git
