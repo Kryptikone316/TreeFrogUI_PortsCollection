@@ -1,0 +1,14 @@
+SDL Zombies (Datafrog SF3500 port)
+
+Original game: Philippe Brochard, SdlZombies 1.0.0 (2001), http://hocwp.free.fr/sdlzombies.html
+  GNU General Public License, version 2 or later (sdlzombies-COPYING.txt). The artwork and
+  sounds in data/ are the ones in the author's release. His page states: "SdlZombies est sous
+  licence GPL : n'hesitez pas a le copier et a le distribuer autour de vous."
+SF3500 platform backend (hw/, compat/ and the SF3500-only changes in src/): AthruZ,
+  https://github.com/Kryptikone316/sdlzombies (branch sf3500)
+Device selection through /tmp/tfdevice.env: from TreeFrogUI's hijack script (zhijack.tpl.sh),
+  pointed out by Maheshivara. The display wrapper is derived from TreeFrogUI's pico286 SF3000 patch.
+PNG loading: stb_image by Sean Barrett, public domain / MIT (stb_image-license.txt).
+SDL 1.2 is provided by the device's firmware and linked dynamically; it is not included here.
+
+Source code for this port is the pinned "source" submodule of this repository.
