@@ -38,6 +38,21 @@ archives.
   </tr>
 </table>
 
+### Synaps33 source forks
+
+- [FroggyCraft](https://github.com/Synaps33/FroggyCraft) — ClassiCube
+- [FroggyDuke](https://github.com/Synaps33/FroggyDuke) — Duke Nukem 3D
+- [FroggyMania](https://github.com/Synaps33/FroggyMania) — FroggyMania
+- [FroggyPE](https://github.com/Synaps33/FroggyPE) — Minecraft PE
+- [FroggySpacePinbal](https://github.com/Synaps33/FroggySpacePinbal) — Space Cadet Pinball
+- [FroggyTale](https://github.com/Synaps33/FroggyTale) — Undertale
+
+## Contributors
+
+- [Synaps33](https://github.com/Synaps33) — upstream game forks adapted for these ports; see the source links above.
+- [Kryptikone316](https://github.com/Kryptikone316) — Hydra Castle Labyrinth, Hex-a-hop, and SDL Zombies ([PRs #1](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/1), [#2](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/2), [#3](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/3), [#5](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/5)).
+- [Maheshivara](https://github.com/Maheshivara) — base box art and automatic port-table updates ([PRs #6](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/6), [#7](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/7)).
+
 ## How to install
 
 ### TreeFrogUI Installer
