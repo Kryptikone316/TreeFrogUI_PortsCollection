@@ -5,7 +5,7 @@ Slashstone): a platform adventure with a password-based level select. This port
 runs it natively on TreeFrogUI devices, built from the
 [SF3500 branch](https://github.com/Kryptikone316/nikwi/tree/sf3500) of the
 author's [source release](https://github.com/jbradish/nikwi). It needs no extra
-game data: everything is included, except the optional music described below.
+game data: everything is included, and an optional music pack is described below.
 
 Select **Nikwi Deluxe** under **Games → Ports** to start the game.
 
@@ -25,22 +25,31 @@ highlighted letter, X erases the last one and Start accepts the password.
 
 ## Music
 
-The original game has no music. This port can play one pre-rendered track per
-level, but the tracks are not included: they were rendered from third-party
-tracker modules whose licences could not be verified. Without them the game
-runs normally with sound effects only.
+The original game has no music. An optional music pack adds six tracks: five
+for the levels and one for the title and menu screens. They were arranged
+specifically for this title and are released under CC0. The pack is a separate
+download (7 MB) so the port itself stays small:
 
-To add your own, put up to nine files named `bgm0.raw` to `bgm8.raw` in
-`roms/ports/nikwi/data/audio/`. Each is raw audio: no header, mono, 48000 Hz,
-signed 16-bit little endian, and it loops. For example, with ffmpeg:
+1. Download [nikwi-music-pack.zip](https://github.com/Kryptikone316/nikwi/releases/download/music-pack-1/nikwi-music-pack.zip).
+2. Unzip it and copy the contents of its `data` folder into
+   `roms/ports/nikwi/data/`, so that `bgm0.ogg` to `bgm4.ogg` and `bgm8.ogg`
+   end up in `roms/ports/nikwi/data/audio/`.
+3. Start the game. The title screen plays `bgm8`, and the levels play the level
+   tracks in turn.
+
+A track is decoded in the background while it plays, so the first second or two
+can be silent; the `music:` lines in `log.txt` show how long each one took.
+Delete the files to remove the music again.
+
+To use your own music instead, name the files `bgm0` to `bgm7` for the levels
+(any number from one to eight, starting at `bgm0`; the game plays them in turn)
+and `bgm8` for the title screen. They can be Ogg Vorbis (`.ogg`, mono or stereo,
+48000 Hz) or raw audio (`.raw`: no header, mono, 48000 Hz, signed 16-bit little
+endian). For example, with ffmpeg:
 
 ```sh
-ffmpeg -i song.ogg -ac 1 -ar 48000 -f s16le bgm0.raw
+ffmpeg -i song.mp3 -ac 1 -ar 48000 -c:a libvorbis -q:a 4 bgm0.ogg
 ```
-
-Level *n* plays `bgm`*(n mod 8)*`.raw`, so tracks 0 to 7 cover the levels, and
-`bgm8.raw` plays on the title and menu screens. Only the files you provide are
-played.
 
 ## Audio tuning
 
@@ -70,5 +79,5 @@ scripts, sounds and levels) under the WTFPL, as stated by the author; the texts
 and credits are in `roms/ports/nikwi/licenses/`. The tile and object files in
 `data/` are converted from the author's own images with his `bmp2ut` tool. The
 source for this port is the pinned `source/` submodule, which keeps the
-author's own history. SDL 1.2 comes with the device's firmware and is not
-included.
+author's own history. Music is decoded with stb_vorbis (public domain). SDL 1.2
+comes with the device's firmware and is not included.

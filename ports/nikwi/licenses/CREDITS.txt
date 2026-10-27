@@ -12,6 +12,10 @@ Device selection through /tmp/tfdevice.env: from TreeFrogUI's hijack script (zhi
 Bitmap font for the password screen: font8x8_basic by Daniel Hepper, public domain (font8x8-license.txt).
 SDL 1.2 is provided by the device's firmware and linked dynamically; it is not included here.
 
-Background music is not included: see the setup guide.
+Background music is not included in this package. The optional music pack (a separate download, see the
+setup guide) was arranged specifically for this title by AthruZ using free instruments and is released
+under CC0 1.0. Its title and menu track is "Painted Dream" by hothxcc, CC0:
+https://opengameart.org/content/painted-dream
+Ogg Vorbis decoding: stb_vorbis by Sean Barrett, public domain / MIT (stb_vorbis.txt).
 
 Source code for this port is the pinned "source" submodule of this repository.
