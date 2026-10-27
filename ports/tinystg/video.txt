@@ -5,7 +5,7 @@
 # A bigger frame means less driver smoothing, but costs frame time.
 # The driver accepts at most 640x480.
 #
-# FRAME RATE: the game runs at 60 fps. After each run, check run.log: the
+# FRAME RATE: the game runs at 60 fps. After each run, check log.txt: the
 # "tinystg loop" lines end with "(NN fps)". Stay at 50 or above; if a setting
 # drops below that, go back to a smaller frame or turn effects off.
 #

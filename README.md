@@ -9,24 +9,50 @@ archives.
 
 ## Supported ports
 
+### Standalone ports
+
 <table>
   <tr>
-    <td align="center"><a href="docs/setup/classicube.md"><img src="ports/classicube/boxart.png" width="150" alt="ClassiCube floppy box art"><br><strong>ClassiCube</strong></a><br>Standalone</td>
-    <td align="center"><a href="docs/setup/diablo.md"><img src="ports/diablo/boxart.png" width="150" alt="Diablo floppy box art"><br><strong>Diablo 1</strong></a><br>Game data required</td>
-    <td align="center"><a href="docs/setup/spacecadet.md"><img src="ports/spacecadet/boxart.png" width="150" alt="Space Cadet Pinball floppy box art"><br><strong>Space Cadet Pinball</strong></a><br>Game data required</td>
-    <td align="center"><a href="docs/setup/duke3d.md"><img src="ports/duke3d/boxart.png" width="150" alt="Duke Nukem 3D floppy box art"><br><strong>Duke Nukem 3D</strong></a><br>Game data required</td>
-    <td align="center"><a href="docs/setup/mcpe.md"><img src="ports/mcpe/boxart.png" width="150" alt="Minecraft PE floppy box art"><br><strong>Minecraft PE</strong></a><br>Game data required</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="docs/setup/openclaw.md"><img src="ports/openclaw/boxart.png" width="150" alt="Captain Claw floppy box art"><br><strong>Captain Claw</strong></a><br>Game data required</td>
-    <td align="center"><a href="docs/setup/openlara.md"><img src="ports/openlara/boxart.png" width="150" alt="OpenLara floppy box art"><br><strong>OpenLara</strong></a><br>Game data required</td>
-    <td align="center"><a href="docs/setup/undertale.md"><img src="ports/undertale/boxart.png" width="150" alt="Undertale floppy box art"><br><strong>Undertale</strong></a><br>Game data required</td>
-    <td align="center"><a href="docs/setup/vvvvvv.md"><img src="ports/vvvvvv/boxart.png" width="150" alt="VVVVVV floppy box art"><br><strong>VVVVVV</strong></a><br>Game data required</td>
-    <td align="center"><a href="docs/setup/froggymania.md"><img src="ports/froggymania/boxart.png" width="150" alt="FroggyMania floppy box art"><br><strong>FroggyMania</strong></a><br>Game data required</td>
-    <td align="center"><a href="docs/setup/hexahop.md"><img src="ports/hexahop/boxart.png" width="150" alt="Hex-a-hop floppy box art"><br><strong>Hex-a-hop</strong></a><br>Standalone</td>
-    <td align="center"><a href="docs/setup/tinystg.md"><img src="ports/tinystg/boxart.png" width="150" alt="TinySTG floppy box art"><br><strong>TinySTG</strong></a><br>Standalone</td>
+    <td align="center"><a href="docs/setup/classicube.md"><img src="ports/classicube/boxart.png" width="150" alt="ClassiCube floppy box art"><br><strong>ClassiCube</strong></a></td>
+    <td align="center"><a href="docs/setup/hexahop.md"><img src="ports/hexahop/boxart.png" width="150" alt="Hex-a-hop floppy box art"><br><strong>Hex-a-hop</strong></a></td>
+    <td align="center"><a href="docs/setup/sdlzombies.md"><img src="ports/sdlzombies/boxart.png" width="150" alt="SDL Zombies floppy box art"><br><strong>SDL Zombies</strong></a></td>
+    <td align="center"><a href="docs/setup/tinystg.md"><img src="ports/tinystg/boxart.png" width="150" alt="TinySTG floppy box art"><br><strong>TinySTG</strong></a></td>
   </tr>
 </table>
+
+### Ports requiring game data
+
+<table>
+  <tr>
+    <td align="center"><a href="docs/setup/openclaw.md"><img src="ports/openclaw/boxart.png" width="150" alt="Captain Claw floppy box art"><br><strong>Captain Claw</strong></a></td>
+    <td align="center"><a href="docs/setup/diablo.md"><img src="ports/diablo/boxart.png" width="150" alt="Diablo 1 floppy box art"><br><strong>Diablo 1</strong></a></td>
+    <td align="center"><a href="docs/setup/duke3d.md"><img src="ports/duke3d/boxart.png" width="150" alt="Duke Nukem 3D floppy box art"><br><strong>Duke Nukem 3D</strong></a></td>
+    <td align="center"><a href="docs/setup/froggymania.md"><img src="ports/froggymania/boxart.png" width="150" alt="FroggyMania floppy box art"><br><strong>FroggyMania</strong></a></td>
+    <td align="center"><a href="docs/setup/hcl.md"><img src="ports/hcl/boxart.png" width="150" alt="Hydra Castle Labyrinth floppy box art"><br><strong>Hydra Castle Labyrinth</strong></a></td>
+    <td align="center"><a href="docs/setup/mcpe.md"><img src="ports/mcpe/boxart.png" width="150" alt="Minecraft PE floppy box art"><br><strong>Minecraft PE</strong></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="docs/setup/openlara.md"><img src="ports/openlara/boxart.png" width="150" alt="OpenLara floppy box art"><br><strong>OpenLara</strong></a></td>
+    <td align="center"><a href="docs/setup/spacecadet.md"><img src="ports/spacecadet/boxart.png" width="150" alt="Space Cadet Pinball floppy box art"><br><strong>Space Cadet Pinball</strong></a></td>
+    <td align="center"><a href="docs/setup/undertale.md"><img src="ports/undertale/boxart.png" width="150" alt="Undertale floppy box art"><br><strong>Undertale</strong></a></td>
+    <td align="center"><a href="docs/setup/vvvvvv.md"><img src="ports/vvvvvv/boxart.png" width="150" alt="VVVVVV floppy box art"><br><strong>VVVVVV</strong></a></td>
+  </tr>
+</table>
+
+### Synaps33 source forks
+
+- [FroggyCraft](https://github.com/Synaps33/FroggyCraft) — ClassiCube
+- [FroggyDuke](https://github.com/Synaps33/FroggyDuke) — Duke Nukem 3D
+- [FroggyMania](https://github.com/Synaps33/FroggyMania) — FroggyMania
+- [FroggyPE](https://github.com/Synaps33/FroggyPE) — Minecraft PE
+- [FroggySpacePinbal](https://github.com/Synaps33/FroggySpacePinbal) — Space Cadet Pinball
+- [FroggyTale](https://github.com/Synaps33/FroggyTale) — Undertale
+
+## Contributors
+
+- [Synaps33](https://github.com/Synaps33) — upstream game forks adapted for these ports; see the source links above.
+- [Kryptikone316](https://github.com/Kryptikone316) — Hydra Castle Labyrinth, Hex-a-hop, and SDL Zombies ([PRs #1](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/1), [#2](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/2), [#3](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/3), [#5](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/5)).
+- [Maheshivara](https://github.com/Maheshivara) — base box art and automatic port-table updates ([PRs #6](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/6), [#7](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/7)).
 
 ## How to install
 
