@@ -27,10 +27,20 @@ roms/ports/hexahop/
 | Start | Pause |
 | Select + Start (held together) | Quit immediately |
 
+## Supported devices
+
+The port loads the display and audio driver that TreeFrogUI selects for your
+device (it reads it from `/tmp/tfdevice.env`), so one build covers every device
+that shows frames through that driver. It is tested on the SF3500. The SF3000,
+SF3000 HD, SF3100 and GB350 use the same method and should work, but have not
+all been tested. It does **not** run on the R36SX and R36HD, which write to the
+framebuffer directly instead.
+
 ## If something goes wrong
 
 Every launch writes `log.txt` in the port folder and ends it with an
-`EXIT CODE:` line. Include it when reporting a problem. To start over, delete
+`EXIT CODE:` line. Its first lines show the device, display mode and driver
+the port picked. Include it when reporting a problem. To start over, delete
 the `.hex-a-hop` folder.
 
 ## Source and licenses
