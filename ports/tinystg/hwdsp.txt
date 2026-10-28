@@ -1,0 +1,7 @@
+# hwdsp tunables - edit and push this file, no rebuild needed.
+# Missing or unparsable keys keep their 1.0 (unity, no change) default.
+# Takes effect on the next launch (read once at startup).
+
+master_gain=1.0
+bass_gain=1.0
+treble_gain=1.0
