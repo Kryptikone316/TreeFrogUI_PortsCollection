@@ -57,6 +57,13 @@ ffmpeg -i song.mp3 -ac 1 -ar 48000 -c:a libvorbis -q:a 4 bgm0.ogg
 adjustment for the device's speaker. Edit its values or set `enabled=0` and
 relaunch. If the file is missing, neutral defaults are used.
 
+## Frame rate
+
+`nikwi.txt` in the port folder holds one setting, `fps`. The game moves its
+characters 50 times a second, so the default of `fps=50` gives every frame
+exactly one step of movement and leaves the processor idle between frames. Set
+`fps=0` to remove the limit. Edit the file and relaunch; no rebuild is needed.
+
 ## Supported devices
 
 The port loads the display and audio driver that TreeFrogUI selects for your
