@@ -33,6 +33,7 @@ archives.
   <tr>
     <td align="center"><a href="docs/setup/openlara.md"><img src="ports/openlara/boxart.png" width="150" alt="OpenLara floppy box art"><br><strong>OpenLara</strong></a></td>
     <td align="center"><a href="docs/setup/spacecadet.md"><img src="ports/spacecadet/boxart.png" width="150" alt="Space Cadet Pinball floppy box art"><br><strong>Space Cadet Pinball</strong></a></td>
+    <td align="center"><a href="docs/setup/sorr.md"><img src="ports/sorr/boxart.png" width="150" alt="Streets of Rage Remake floppy box art"><br><strong>Streets of Rage Remake</strong></a></td>
     <td align="center"><a href="docs/setup/undertale.md"><img src="ports/undertale/boxart.png" width="150" alt="Undertale floppy box art"><br><strong>Undertale</strong></a></td>
     <td align="center"><a href="docs/setup/vvvvvv.md"><img src="ports/vvvvvv/boxart.png" width="150" alt="VVVVVV floppy box art"><br><strong>VVVVVV</strong></a></td>
   </tr>
