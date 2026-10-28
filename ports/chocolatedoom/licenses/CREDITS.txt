@@ -1,0 +1,26 @@
+Chocolate Doom (Datafrog SF3500 port)
+
+Engine: Chocolate Doom 3.1.1, by Simon Howard and contributors,
+  https://github.com/chocolate-doom/chocolate-doom
+  GNU General Public License, version 2 or later (chocolate-doom-COPYING.md).
+Game: Doom, id Software, 1993. gamedata/DOOM1.WAD is the shareware episode,
+  unmodified (sha256 1d7d43be501e67d927e415e0b8f3e29c3bf33075e859721816f652a526cac771).
+  Basis for including it: id's shareware release may be copied unmodified at no
+  charge, and John Carmack's email of 23 October 1999 says "The DOOM shareware
+  wad is freely distributable"; Debian (doom-wad-shareware) and RPM Fusion
+  distribute it on the same basis. The commercial game files (DOOM.WAD,
+  DOOM2.WAD, PLUTONIA.WAD, TNT.WAD) are NOT included; players bring their own.
+SF3500 platform backend, music changes and the WAD loader: AthruZ,
+  https://github.com/Kryptikone316/chocolate-doom (branch sf3500). Distributed
+  under the same GPL terms as the rest of the program.
+Device selection through /tmp/tfdevice.env: from TreeFrogUI's hijack script
+  (zhijack.tpl.sh), pointed out by Maheshivara. The display wrapper is derived
+  from TreeFrogUI's pico286 SF3000 patch.
+WAD loader: its normal font, logo and cursor are read at run time from the
+  player's own game file and are not copied. The built-in fallback font is
+  font8x8 by Daniel Hepper, public domain (font8x8-license.txt).
+No music pack is included: the game plays the music stored in the game file.
+SDL2 is provided by the device's firmware and linked dynamically; it is not
+included here.
+
+Source code for this port is the pinned "source" submodule of this repository.

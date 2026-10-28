@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "sorr",
+  "name": "Streets of Rage Remake",
+  "launcher": "Streets of Rage Remake.sh",
+  "launch": {
+    "type": "native",
+    "binary": "bgdi.mipsel"
+  },
+  "required_file_sets": [["gamedata/SorR.dat", "gamedata/mod/system.txt", "gamedata/palettes/chars/adam1.pal"]],
+  "setup_guide": "docs/setup/sorr.md",
+  "setup_guide_url": "https://github.com/tzubertowski/TreeFrogUI_PortsCollection/blob/main/docs/setup/sorr.md"
+}

@@ -1,0 +1,11 @@
+Streets of Rage Remake: the game's files go in THIS folder.
+
+This port does not include the game. Copy these three items from your own copy of
+Streets of Rage Remake v5.2 into here, so that this folder directly contains:
+
+  SorR.dat     mod/     palettes/
+
+Leave the music as it came; do not re-encode it.
+
+Full instructions:
+https://github.com/tzubertowski/TreeFrogUI_PortsCollection/blob/main/docs/setup/sorr.md

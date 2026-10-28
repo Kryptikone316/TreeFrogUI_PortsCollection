@@ -1,0 +1,39 @@
+# TinySTG video settings. Edit this file and relaunch; no rebuild needed.
+#
+# The game draws 80x64 and is upscaled in software to out_w x out_h; the
+# driver then scales that frame to the screen (smoothly, which is the blur).
+# A bigger frame means less driver smoothing, but costs frame time.
+# The driver accepts at most 640x480.
+#
+# FRAME RATE: the game runs at 60 fps. After each run, check log.txt: the
+# "tinystg loop" lines end with "(NN fps)". Stay at 50 or above; if a setting
+# drops below that, go back to a smaller frame or turn effects off.
+#
+#   out_w, out_h  frame size.   320x240 (default): about 59 fps measured.
+#   fit           stretch: fill the frame (pixels may differ by one row/column)
+#                 integer: whole-number scale, centred, black borders
+#
+# Sizes to try, smallest cost first:
+#   320 x 240   default
+#   480 x 360   a bit sharper
+#   640 x 480   sharpest the driver accepts
+out_w=320
+out_h=240
+fit=stretch
+
+# Colour. 1.00 leaves a value unchanged.
+#   contrast    1.00 to 1.50 (more punch)
+#   saturation  1.00 to 1.60 (more colour)
+#   gamma       below 1.00 darkens midtones, above 1.00 brightens them
+contrast=1.15
+saturation=1.25
+gamma=1.00
+
+# Pixel-edge effects, off by default (0 = off, up to 80 = percent darker).
+# They darken the last row / column of every game pixel, which keeps pixels
+# looking separate and hides some of the driver's blur. Best at 480x360 or
+# 640x480 with values around 20 to 40.
+#   scanlines   darken the bottom row of each game pixel (horizontal lines)
+#   grid        darken the right column of each game pixel (vertical lines)
+scanlines=0
+grid=0
