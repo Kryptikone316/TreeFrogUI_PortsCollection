@@ -1,0 +1,24 @@
+Streets of Rage Remake (Datafrog SF3500 port): runtime only, no game data
+
+This package contains only the BennuGD runtime that runs the game's files. The game itself
+(SorR.dat, mod/, palettes/) is NOT included; players bring their own copy. Streets of Rage is a
+Sega franchise; Streets of Rage Remake is a fan project by its own authors and is not
+distributed here.
+
+Runtime: sorr-vita by isage (PS Vita port of the BennuGD runtime used by the game),
+  https://github.com/isage/sorr-vita, based on BennuGD / Fenix.
+  Copyright 2021 Sarcastic Cat (Vita SoRR port); 2006-2011 SplinterGU (Fenix/Bennugd);
+  2002-2006 Fenix Team (Fenix); 1999-2002 Jose Luis Cebrian Pague (Fenix).
+  zlib-style licence (sorr-vita-COPYING.txt).
+SF3500 platform backend, 44100 Hz mixer and the SDL2 patch: AthruZ,
+  https://github.com/Kryptikone316/sorr-vita (branch sf3500). Altered source versions are marked
+  as such; same licence terms.
+SDL2 2.0.14 (statically linked, with the SF3500 patch in sf3500/sdl2-2.0.14-sf3500.patch of the
+  source) and SDL2_mixer 2.6.3 (statically linked, Ogg through its bundled stb_vorbis, public
+  domain / MIT): Sam Lantinga and contributors, zlib licence (sdl2.txt, sdl2_mixer.txt).
+Device selection through /tmp/tfdevice.env: from TreeFrogUI's hijack script (zhijack.tpl.sh),
+  pointed out by Maheshivara. The display wrapper is derived from TreeFrogUI's pico286 SF3000 patch.
+libpng and zlib are provided by the device's firmware and linked dynamically; they are not
+  included here.
+
+Source code for this port is the pinned "source" submodule of this repository.
