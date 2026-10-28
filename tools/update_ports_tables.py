@@ -76,9 +76,9 @@ def main():
 
     output = "\n\n".join(
         [
-            "## Standalone ports",
+            "### Standalone ports",
             render_table(standalone),
-            "## Ports requiring game data",
+            "### Ports requiring game data",
             render_table(requires_data),
         ]
     )

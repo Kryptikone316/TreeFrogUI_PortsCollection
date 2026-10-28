@@ -1,0 +1,10 @@
+# Chocolate Doom settings (plain text; edit and relaunch, no rebuild needed).
+#
+# opl_gain: loudness of the game's own music (the music stored in the WAD),
+#           as a multiple of the original level. 1 is unchanged; raise it if
+#           the music is too quiet next to the sound effects. Very high values
+#           distort. Does not affect the optional music_pack folder.
+opl_gain=3
+# opl_diag: 1 writes the music's peak level to log.txt every two seconds,
+#           which helps choose opl_gain. Leave at 0 normally.
+opl_diag=0
