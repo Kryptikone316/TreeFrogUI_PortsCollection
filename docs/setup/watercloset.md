@@ -54,7 +54,7 @@ relaunch; no rebuild is needed.
 
 | Setting | Default | What it does |
 |--|--|--|
-| `fps` | 50 | The frame limit, which is also the game speed (the game does one step per frame and was designed for 60). 50 leaves room on a slower device. |
+| `fps` | 50 | The frame limit, which is also the game speed (the game does one step per frame and was designed for 60, so 50 is 17% slower). On the SF3500 the early stages run fine at 60, but from about stage 12 a frame needs 15 to 19 ms, more than the 16.7 ms that 60 allows, so the speed becomes uneven there; 50 stays steady. Set 60 if your device has room. |
 | `draw_every` | 1 | 2 or 3 draws only every 2nd or 3rd frame at the same game speed, for a device that cannot draw fast enough. |
 | `lights`, `particles`, `background` | 1 | Turn the glows, particle effects and the brick background off to save work. |
 | `sharpness`, `saturation`, `contrast` | 0.5, 1.0, 1.0 | Tune how the half-size pictures are reduced and coloured. |

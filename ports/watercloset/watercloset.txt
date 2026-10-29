@@ -9,7 +9,10 @@
 # fps:        the frame limit, which is also the game speed. This game does one logic
 #             step per frame, so 60 is the speed it was designed for (its on-screen
 #             clock counts 60 frames to the second); a lower number makes everything
-#             slower, not just less smooth. 50 leaves some room on a slower device.
+#             slower, not just less smooth (50 is 17% slower). On the SF3500 the early
+#             stages need about 14 ms per frame and run fine at 60, but from about
+#             stage 12 a frame needs 15 to 19 ms, more than the 16.7 ms that 60 allows,
+#             so at 60 the speed becomes uneven there. 50 (20 ms) keeps it steady.
 fps=50
 #
 # draw_every: 1 draws a picture on every frame. 2 or 3 runs the game at the full fps
