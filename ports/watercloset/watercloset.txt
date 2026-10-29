@@ -1,5 +1,9 @@
 # Water Closet settings (plain text; edit and relaunch, no rebuild needed).
 #
+# Only lines of the form  name=number  are read, and they are never run as commands. Anything
+# else (a name that is not listed here, a value that is not a number) is ignored and noted in
+# log.txt. Text after a # on a line is a comment.
+#
 # ---- Speed -------------------------------------------------------------------
 #
 # fps:        the frame limit, which is also the game speed. This game does one logic
