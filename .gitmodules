@@ -40,6 +40,9 @@
 [submodule "ports/sdlzombies/source"]
 	path = ports/sdlzombies/source
 	url = https://github.com/Kryptikone316/sdlzombies.git
+[submodule "ports/nikwi/source"]
+	path = ports/nikwi/source
+	url = https://github.com/Kryptikone316/nikwi.git
 [submodule "ports/sorr/source"]
 	path = ports/sorr/source
 	url = https://github.com/Kryptikone316/sorr-vita.git
