@@ -78,6 +78,13 @@ with the exact name of the track to replace (`Meadow Thoughts.ogg`, `puzzle-1-a.
 good size. While the folder exists its tracks are used; delete or rename it to go back to the
 originals. WAV and MP3 files are not supported.
 
+An optional enhanced set of the four tracks (about 192 kbps, with the volume evened out so they
+sit together like an album) is a separate download, attached to the
+[music-pack-1 release](https://github.com/Kryptikone316/waterCloset/releases/tag/music-pack-1) of the
+port's source repository. Unzip it into `roms/ports/watercloset` so that the files end up in
+`roms/ports/watercloset/music_pack`. The README inside the zip lists the credits and the changes
+made.
+
 ## Supported devices
 
 The port loads the display and audio driver that TreeFrogUI selects for your device (it reads it
