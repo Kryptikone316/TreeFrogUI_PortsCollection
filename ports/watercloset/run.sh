@@ -15,8 +15,8 @@ mkdir -p "$HOME/.local/share/waterCloset"
 sharpness=0.5
 saturation=1.0
 contrast=1.0
-fps=50
-draw_every=1
+fps=60
+draw_every=2
 lights=1
 particles=1
 background=1

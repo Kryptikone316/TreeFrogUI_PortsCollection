@@ -54,8 +54,8 @@ relaunch; no rebuild is needed.
 
 | Setting | Default | What it does |
 |--|--|--|
-| `fps` | 50 | The frame limit, which is also the game speed (the game does one step per frame and was designed for 60, so 50 is 17% slower). On the SF3500 the early stages run fine at 60, but from about stage 12 a frame needs 15 to 19 ms, more than the 16.7 ms that 60 allows, so the speed becomes uneven there; 50 stays steady. Set 60 if your device has room. |
-| `draw_every` | 1 | 2 or 3 draws only every 2nd or 3rd frame at the same game speed, for a device that cannot draw fast enough. |
+| `fps` | 60 | The frame limit, which is also the game speed. The game does one step per frame and was designed for 60, so a lower number slows everything down (50 is 17% slower). |
+| `draw_every` | 2 | 2 draws a picture on every 2nd frame (30 a second at `fps=60`) while the game and the buttons still run at the full speed; 3 draws every 3rd; 1 draws every frame. On the SF3500, from about stage 12 a frame needs 15 to 19 ms, more than the 16.7 ms available at 60, so drawing every frame cannot keep the speed up there. Measured on the SF3500 from stage 12 on: 50 fps with every frame drawn ran at about 77% of the designed speed, and 60 fps with every 2nd frame drawn at about 91%. Set it to 1 on a device that can draw every frame. |
 | `lights`, `particles`, `background` | 1 | Turn the glows, particle effects and the brick background off to save work. |
 | `sharpness`, `saturation`, `contrast` | 0.5, 1.0, 1.0 | Tune how the half-size pictures are reduced and coloured. |
 | `nice` | -10 | Scheduling priority. A negative value keeps the launcher's background checks from taking a slice of a frame. |
@@ -97,7 +97,9 @@ framebuffer directly instead.
 
 From about stage 12 on, the frame rate can dip for several seconds at a time on the SF3500 (the
 first write of a frame to the screen buffer sometimes stalls). The game stays playable and the
-slowdown goes away on its own; the cause is still being investigated.
+slowdown goes away on its own; the cause is still being investigated. Drawing a picture on every 2nd
+frame (the `draw_every` default) softens it: the game keeps about 64% of its designed speed during a
+dip, against about 38% when every frame is drawn.
 
 ## If something goes wrong
 
