@@ -58,3 +58,21 @@ jobs:
           files: |
             dist/TreeFrogUI-Ports-standalone.zip
             dist/TreeFrogUI-Ports-requiring-game-data.zip
+
+      - name: Post stable release to Discord
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_STABLE_RELEASE_WEBHOOK }}
+          RELEASE_TAG: ports-${{ github.run_number }}
+        run: |
+          set -euo pipefail
+          release=$(gh api "repos/$GITHUB_REPOSITORY/releases/tags/$RELEASE_TAG")
+          payload=$(jq -n \
+            --arg title "${GITHUB_REPOSITORY##*/} $(jq -r '.name // .tag_name' <<<\"$release\") released" \
+            --arg url "$(jq -r '.html_url' <<<\"$release\")" \
+            --arg body "$(jq -r '.body // \"\"' <<<\"$release\")" \
+            '{embeds:[{title:$title,url:$url,description:($body[0:4000]),color:3066993,footer:{text:"Stable release"}}]}')
+          curl --fail-with-body --silent --show-error \
+            -H 'Content-Type: application/json' \
+            --data "$payload" \
+            "$DISCORD_WEBHOOK_URL"
