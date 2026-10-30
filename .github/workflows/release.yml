@@ -67,10 +67,13 @@ jobs:
         run: |
           set -euo pipefail
           release=$(gh api "repos/$GITHUB_REPOSITORY/releases/tags/$RELEASE_TAG")
+          release_name=$(jq -r '.name // .tag_name' <<<"$release")
+          release_url=$(jq -r '.html_url' <<<"$release")
+          release_body=$(jq -r '.body // ""' <<<"$release")
           payload=$(jq -n \
-            --arg title "${GITHUB_REPOSITORY##*/} $(jq -r '.name // .tag_name' <<<\"$release\") released" \
-            --arg url "$(jq -r '.html_url' <<<\"$release\")" \
-            --arg body "$(jq -r '.body // \"\"' <<<\"$release\")" \
+            --arg title "${GITHUB_REPOSITORY##*/} $release_name released" \
+            --arg url "$release_url" \
+            --arg body "$release_body" \
             '{embeds:[{title:$title,url:$url,description:($body[0:4000]),color:3066993,footer:{text:"Stable release"}}]}')
           curl --fail-with-body --silent --show-error \
             -H 'Content-Type: application/json' \
