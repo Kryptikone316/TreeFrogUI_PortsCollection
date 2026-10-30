@@ -11,7 +11,7 @@ archives.
 
 ## Supported ports
 
-Currently this repo has 19 available ports, as showed on the tables bellow.
+Currently this repo has 20 available ports, as showed on the tables bellow.
 
 ### Standalone ports
 
