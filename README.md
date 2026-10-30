@@ -1,3 +1,5 @@
+<!-- This file is generated from README.tpl.md by tools/update_readme.py. Do not edit it directly. -->
+
 # TreeFrogUI Ports Collection
 
 This repository distributes standalone game ports for TreeFrogUI devices. Each
@@ -8,6 +10,8 @@ collection. Game data is supplied by users and is not included in these
 archives.
 
 ## Supported ports
+
+Currently this repo has 17 available ports, as showed on the tables bellow.
 
 ### Standalone ports
 
@@ -42,20 +46,24 @@ archives.
   </tr>
 </table>
 
-### Synaps33 source forks
+## Source forks
 
-- [FroggyCraft](https://github.com/Synaps33/FroggyCraft) — ClassiCube
-- [FroggyDuke](https://github.com/Synaps33/FroggyDuke) — Duke Nukem 3D
-- [FroggyMania](https://github.com/Synaps33/FroggyMania) — FroggyMania
-- [FroggyPE](https://github.com/Synaps33/FroggyPE) — Minecraft PE
-- [FroggySpacePinbal](https://github.com/Synaps33/FroggySpacePinbal) — Space Cadet Pinball
-- [FroggyTale](https://github.com/Synaps33/FroggyTale) — Undertale
+Some ports are built from upstream game forks adapted for TreeFrogUI. Their sources are listed below.
+
+### Synaps33
+
+- [FroggyCraft](https://github.com/Synaps33/FroggyCraft) -- ClassiCube
+- [FroggyDuke](https://github.com/Synaps33/FroggyDuke) -- Duke Nukem 3D
+- [FroggyMania](https://github.com/Synaps33/FroggyMania) -- FroggyMania
+- [FroggyPE](https://github.com/Synaps33/FroggyPE) -- Minecraft PE
+- [FroggySpacePinbal](https://github.com/Synaps33/FroggySpacePinbal) -- Space Cadet Pinball
+- [FroggyTale](https://github.com/Synaps33/FroggyTale) -- Undertale
 
 ## Contributors
 
-- [Synaps33](https://github.com/Synaps33) — upstream game forks adapted for these ports; see the source links above.
-- [Kryptikone316](https://github.com/Kryptikone316) — Hydra Castle Labyrinth, Hex-a-hop, and SDL Zombies ([PRs #1](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/1), [#2](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/2), [#3](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/3), [#5](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/5)).
-- [Maheshivara](https://github.com/Maheshivara) — base box art and automatic port-table updates ([PRs #6](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/6), [#7](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/7)).
+- [Synaps33](https://github.com/Synaps33) -- upstream game forks adapted for these ports; see the source links above.
+- [Kryptikone316](https://github.com/Kryptikone316) -- Hydra Castle Labyrinth, Hex-a-hop, and SDL Zombies ([PRs #1](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/1), [#2](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/2), [#3](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/3), [#5](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/5)).
+- [Maheshivara](https://github.com/Maheshivara) -- base box art and automatic port-table updates ([PRs #6](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/6), [#7](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/7)).
 
 ## How to install
 
@@ -166,19 +174,19 @@ check.
 
 ### What each field means
 
-| Field | What to put there |
-|---|---|
-| `schema_version` | `1` for the current config format. |
-| `id` | The port folder name, in lowercase, such as `mygame`. This becomes its install folder. |
-| `name` | Friendly name shown in TreeFrogUI. |
-| `launcher` | Unique visible root entry ending in `.sh`, such as `My Game.sh`. The release builder generates this wrapper. |
-| `launch.type` | `native` for a standalone device executable, or `libretro` for a core started through `picoarch`. |
-| `launch.binary` | Filename of the port-local executable or core. Libretro cores must end in `_libretro.so`. |
-| `launch.content` | Optional port-local marker/content filename passed to the game. It must be included in the port folder or listed among required game files. |
-| `launch.args` | Optional extra arguments for a native executable. `run.sh` is the actual device launch command and must match this config. |
+| Field                | What to put there                                                                                                                                                      |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `schema_version`     | `1` for the current config format.                                                                                                                                     |
+| `id`                 | The port folder name, in lowercase, such as `mygame`. This becomes its install folder.                                                                                 |
+| `name`               | Friendly name shown in TreeFrogUI.                                                                                                                                     |
+| `launcher`           | Unique visible root entry ending in `.sh`, such as `My Game.sh`. The release builder generates this wrapper.                                                           |
+| `launch.type`        | `native` for a standalone device executable, or `libretro` for a core started through `picoarch`.                                                                      |
+| `launch.binary`      | Filename of the port-local executable or core. Libretro cores must end in `_libretro.so`.                                                                              |
+| `launch.content`     | Optional port-local marker/content filename passed to the game. It must be included in the port folder or listed among required game files.                            |
+| `launch.args`        | Optional extra arguments for a native executable. `run.sh` is the actual device launch command and must match this config.                                             |
 | `required_file_sets` | User-provided game files. An empty list means no extra game data. Each inner list is one complete acceptable set; multiple inner lists allow alternative file layouts. |
-| `setup_guide` | Repository path to the port's readable setup guide, usually `docs/setup/<id>.md`. |
-| `setup_guide_url` | HTTPS link to that guide. The missing-files screen opens this link's QR code. |
+| `setup_guide`        | Repository path to the port's readable setup guide, usually `docs/setup/<id>.md`.                                                                                      |
+| `setup_guide_url`    | HTTPS link to that guide. The missing-files screen opens this link's QR code.                                                                                          |
 
 ### Add a port
 
