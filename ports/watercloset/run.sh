@@ -13,8 +13,8 @@ mkdir -p "$HOME/.local/share/waterCloset"
 
 # Settings (see watercloset.txt). These are the defaults; the file overrides them.
 sharpness=0.5
-saturation=1.0
-contrast=1.0
+saturation=1.3
+contrast=1.15
 fps=60
 draw_every=2
 lights=1

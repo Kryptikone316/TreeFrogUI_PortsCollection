@@ -57,7 +57,7 @@ relaunch; no rebuild is needed.
 | `fps` | 60 | The frame limit, which is also the game speed. The game does one step per frame and was designed for 60, so a lower number slows everything down (50 is 17% slower). |
 | `draw_every` | 2 | 2 draws a picture on every 2nd frame (30 a second at `fps=60`) while the game and the buttons still run at the full speed; 3 draws every 3rd; 1 draws every frame. On the SF3500, from about stage 12 a frame needs 15 to 19 ms, more than the 16.7 ms available at 60, so drawing every frame cannot keep the speed up there. Measured on the SF3500 from stage 12 on: 50 fps with every frame drawn ran at about 77% of the designed speed, and 60 fps with every 2nd frame drawn at about 91%. Set it to 1 on a device that can draw every frame. |
 | `lights`, `particles`, `background` | 1 | Turn the glows, particle effects and the brick background off to save work. |
-| `sharpness`, `saturation`, `contrast` | 0.5, 1.0, 1.0 | Tune how the half-size pictures are reduced and coloured. |
+| `sharpness`, `saturation`, `contrast` | 0.5, 1.3, 1.15 | Tune how the half-size pictures are reduced and coloured. The game's art is mostly grey stone, which looks flat at half size, so colour and contrast ship a little above neutral; `saturation=1` and `contrast=1` give the game's original colours. The screen's brightness is TreeFrogUI's and is not touched. |
 | `nice` | -10 | Scheduling priority. A negative value keeps the launcher's background checks from taking a slice of a frame. |
 | `music` | 1 | 0 turns the music off completely. |
 | `audio_lead` | 60 | Milliseconds of sound mixed ahead of the clock. A larger lead rides out longer pauses without crackle; sound effects start that much later. |
