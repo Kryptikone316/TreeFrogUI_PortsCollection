@@ -25,6 +25,7 @@ nice=-10
 music=1
 audio_lead=60
 jump_repeat=0
+language=auto
 
 # watercloset.txt is read as plain "name=number" lines, never run as a script: only the names
 # listed below are accepted, and a value may contain nothing but digits, "." and "-". Anything
@@ -41,6 +42,11 @@ if [ -f ./watercloset.txt ]; then
         key=${line%%=*}
         val=${line#*=}
         val=${val%%\#*}
+        if [ "$key" = language ]; then
+            # the one text setting: auto, or a locale such as de_DE (letters and "_" only)
+            case "$val" in ''|*[!A-Za-z_]*) note "ignored language: use auto or a name such as de_DE" ;; *) language=$val ;; esac
+            continue
+        fi
         case "$val" in ''|*[!0-9.-]*) note "ignored $key: the value must be a number"; continue ;; esac
         case "$key" in
             sharpness) sharpness=$val ;;
@@ -63,6 +69,14 @@ $settings
 EOF
 fi
 # SETTINGS-END
+
+# Language: with "auto" the game follows TreeFrogUI's language setting; a language the game has
+# no file for is shown in English.
+if [ "$language" = auto ]; then
+    language=$(sed -n 's/^language=\([A-Za-z_]*\).*/\1/p' /mnt/sdcard/frogui/settings.txt 2>/dev/null | head -n 1)
+fi
+case "$language" in [a-z][a-z]_[A-Z][A-Z]) ;; *) language=en_US ;; esac
+export WC_LANG="$language"
 export WC_SHARPNESS="$sharpness" WC_SATURATION="$saturation" WC_CONTRAST="$contrast" WC_FPS="$fps"
 export WC_DRAW_EVERY="$draw_every" WC_LIGHTS="$lights" WC_PARTICLES="$particles" WC_BACKGROUND="$background"
 export WC_PERF_LOG="$perf_log" WC_NICE="$nice" WC_MUSIC="$music" WC_AUDIO_LEAD_MS="$audio_lead" WC_JUMP_REPEAT="$jump_repeat"

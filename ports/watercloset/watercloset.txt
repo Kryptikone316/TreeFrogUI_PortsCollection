@@ -46,6 +46,19 @@ saturation=1.0
 # contrast:   difference between light and dark. 1 is unchanged, above 1 is more.
 contrast=1.0
 #
+# ---- Language ------------------------------------------------------------------
+#
+# language:   auto (the default) follows the language set in TreeFrogUI. To force one,
+#             write its name, for example language=de_DE or language=ja_JP. The game has
+#             German (de_DE), Spanish (es_ES), French (fr_FR), Italian (it_IT), Polish
+#             (pl_PL), Brazilian Portuguese (pt_BR), Russian (ru_RU), Turkish (tr_TR),
+#             Japanese (ja_JP) and Simplified Chinese (zh_CN), besides English (en_US); any
+#             other language is shown in English. The translations are drafts that native
+#             speakers have not reviewed: the files are in the lang folder, plain text, and a
+#             fix there needs no rebuild. Russian, Japanese and Chinese use TreeFrogUI's
+#             Unicode font (frogui/fonts/TreeFrogUnicode.ttf) and stay English without it.
+language=auto
+#
 # ---- Log ---------------------------------------------------------------------
 #
 # perf_log:   1 writes a timing line to log.txt every couple of seconds, which helps

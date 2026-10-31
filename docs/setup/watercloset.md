@@ -63,6 +63,24 @@ relaunch; no rebuild is needed.
 | `audio_lead` | 60 | Milliseconds of sound mixed ahead of the clock. A larger lead rides out longer pauses without crackle; sound effects start that much later. |
 | `jump_repeat` | 0 | 1 makes Walter jump again the moment he lands while the button is held, as in the original. |
 | `perf_log` | 1 | Writes a timing and audio line to `log.txt` every couple of seconds, which helps when reporting a problem. |
+| `language` | auto | `auto` follows the language set in TreeFrogUI; or write a name such as `de_DE` to force one (see Languages below). |
+
+### Languages
+
+The game follows TreeFrogUI's language: its menus, tips, story and messages are shown in German
+(`de_DE`), Spanish (`es_ES`), French (`fr_FR`), Italian (`it_IT`), Polish (`pl_PL`), Brazilian
+Portuguese (`pt_BR`), Russian (`ru_RU`), Turkish (`tr_TR`), Japanese (`ja_JP`) or Simplified Chinese
+(`zh_CN`), and in English for any other language. English is the master: `lang/en_US.json` lists every
+string, and each other language is a file in the same folder with the same keys; a string a file
+does not have stays in English.
+
+- Russian, Japanese and Chinese are drawn with TreeFrogUI's own Unicode font
+  (`frogui/fonts/TreeFrogUnicode.ttf`); without it the game stays in English. The credits are English.
+- The translations are drafts written by Claude and have **not** been reviewed by native speakers.
+  A fix is a change to a plain text file in `lang/`; no rebuild is needed. Every file says so in
+  its `_translation_note`.
+- They translate text that is part of the game's data, so they carry the same licence, Creative
+  Commons BY-NC-SA 3.0.
 
 ### Sound tips
 
