@@ -46,6 +46,12 @@ saturation=1.0
 # contrast:   difference between light and dark. 1 is unchanged, above 1 is more.
 contrast=1.0
 #
+# ---- Text --------------------------------------------------------------------
+#
+# bold:       1 draws all text bold, which reads better on this small screen (the game's
+#             own font is thin at half size); 0 gives the original, lighter look.
+bold=1
+#
 # ---- Language ------------------------------------------------------------------
 #
 # language:   auto (the default) follows the language set in TreeFrogUI. To force one,

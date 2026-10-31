@@ -63,6 +63,7 @@ relaunch; no rebuild is needed.
 | `audio_lead` | 60 | Milliseconds of sound mixed ahead of the clock. A larger lead rides out longer pauses without crackle; sound effects start that much later. |
 | `jump_repeat` | 0 | 1 makes Walter jump again the moment he lands while the button is held, as in the original. |
 | `perf_log` | 1 | Writes a timing and audio line to `log.txt` every couple of seconds, which helps when reporting a problem. |
+| `bold` | 1 | Draws all text bold, which reads better on this small screen; 0 gives the game's original, lighter text. |
 | `language` | auto | `auto` follows the language set in TreeFrogUI; or write a name such as `de_DE` to force one (see Languages below). |
 
 ### Languages
