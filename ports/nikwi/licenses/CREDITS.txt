@@ -1,0 +1,21 @@
+Nikwi Deluxe (Datafrog SF3500 port)
+
+Original game: Kostas Michalopoulos (Bad Sector), Slashstone, 2005-2012, http://www.slashstone.com/more/nikwi
+  The engine source is under the zlib licence and everything else (graphics, scripts, sounds, levels)
+  under the WTFPL, see nikwi-license.txt. The author's repository states that he re-released the game
+  with the zlib licence; his repository is copied at https://github.com/jbradish/nikwi.
+  The tile and object files in data/ are converted from the author's own images with his bmp2ut tool.
+SF3500 platform backend (src/hw/ and the SF3500-only changes in src/nikwi/): AthruZ,
+  https://github.com/Kryptikone316/nikwi (branch sf3500)
+Device selection through /tmp/tfdevice.env: from TreeFrogUI's hijack script (zhijack.tpl.sh),
+  pointed out by Maheshivara. The display wrapper is derived from TreeFrogUI's pico286 SF3000 patch.
+Bitmap font for the password screen: font8x8_basic by Daniel Hepper, public domain (font8x8-license.txt).
+SDL 1.2 is provided by the device's firmware and linked dynamically; it is not included here.
+
+Background music is not included in this package. The optional music pack (a separate download, see the
+setup guide) was arranged specifically for this title by AthruZ using free instruments and is released
+under CC0 1.0. Its title and menu track is "Painted Dream" by hothxcc, CC0:
+https://opengameart.org/content/painted-dream
+Ogg Vorbis decoding: stb_vorbis by Sean Barrett, public domain / MIT (stb_vorbis.txt).
+
+Source code for this port is the pinned "source" submodule of this repository.

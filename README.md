@@ -1,3 +1,5 @@
+<!-- This file is generated from README.tpl.md by tools/update_readme.py. Do not edit it directly. -->
+
 # TreeFrogUI Ports Collection
 
 This repository distributes standalone game ports for TreeFrogUI devices. Each
@@ -9,6 +11,8 @@ archives.
 
 ## Supported ports
 
+Currently this repo has 21 available ports, as showed on the tables bellow.
+
 ### Standalone ports
 
 <table>
@@ -16,8 +20,13 @@ archives.
     <td align="center"><a href="docs/setup/chocolatedoom.md"><img src="ports/chocolatedoom/boxart.png" width="150" alt="Chocolate Doom floppy box art"><br><strong>Chocolate Doom</strong></a></td>
     <td align="center"><a href="docs/setup/classicube.md"><img src="ports/classicube/boxart.png" width="150" alt="ClassiCube floppy box art"><br><strong>ClassiCube</strong></a></td>
     <td align="center"><a href="docs/setup/hexahop.md"><img src="ports/hexahop/boxart.png" width="150" alt="Hex-a-hop floppy box art"><br><strong>Hex-a-hop</strong></a></td>
+    <td align="center"><a href="docs/setup/nikwi.md"><img src="ports/nikwi/boxart.png" width="150" alt="Nikwi Deluxe floppy box art"><br><strong>Nikwi Deluxe</strong></a></td>
     <td align="center"><a href="docs/setup/sdlzombies.md"><img src="ports/sdlzombies/boxart.png" width="150" alt="SDL Zombies floppy box art"><br><strong>SDL Zombies</strong></a></td>
+    <td align="center"><a href="docs/setup/froggytux.md"><img src="ports/froggytux/boxart.png" width="150" alt="SuperTux floppy box art"><br><strong>SuperTux</strong></a></td>
+  </tr>
+  <tr>
     <td align="center"><a href="docs/setup/tinystg.md"><img src="ports/tinystg/boxart.png" width="150" alt="TinySTG floppy box art"><br><strong>TinySTG</strong></a></td>
+    <td align="center"><a href="docs/setup/froggytuxracer.md"><img src="ports/froggytuxracer/boxart.png" width="150" alt="Tux Racer floppy box art"><br><strong>Tux Racer</strong></a></td>
     <td align="center"><a href="docs/setup/watercloset.md"><img src="ports/watercloset/boxart.png" width="150" alt="Water Closet floppy box art"><br><strong>Water Closet</strong></a></td>
   </tr>
 </table>
@@ -28,12 +37,13 @@ archives.
   <tr>
     <td align="center"><a href="docs/setup/openclaw.md"><img src="ports/openclaw/boxart.png" width="150" alt="Captain Claw floppy box art"><br><strong>Captain Claw</strong></a></td>
     <td align="center"><a href="docs/setup/diablo.md"><img src="ports/diablo/boxart.png" width="150" alt="Diablo 1 floppy box art"><br><strong>Diablo 1</strong></a></td>
+    <td align="center"><a href="docs/setup/ddlc.md"><img src="ports/ddlc/boxart.png" width="150" alt="Doki Doki Literature Club floppy box art"><br><strong>Doki Doki Literature Club</strong></a></td>
     <td align="center"><a href="docs/setup/duke3d.md"><img src="ports/duke3d/boxart.png" width="150" alt="Duke Nukem 3D floppy box art"><br><strong>Duke Nukem 3D</strong></a></td>
     <td align="center"><a href="docs/setup/froggymania.md"><img src="ports/froggymania/boxart.png" width="150" alt="FroggyMania floppy box art"><br><strong>FroggyMania</strong></a></td>
     <td align="center"><a href="docs/setup/hcl.md"><img src="ports/hcl/boxart.png" width="150" alt="Hydra Castle Labyrinth floppy box art"><br><strong>Hydra Castle Labyrinth</strong></a></td>
-    <td align="center"><a href="docs/setup/mcpe.md"><img src="ports/mcpe/boxart.png" width="150" alt="Minecraft PE floppy box art"><br><strong>Minecraft PE</strong></a></td>
   </tr>
   <tr>
+    <td align="center"><a href="docs/setup/mcpe.md"><img src="ports/mcpe/boxart.png" width="150" alt="Minecraft PE floppy box art"><br><strong>Minecraft PE</strong></a></td>
     <td align="center"><a href="docs/setup/openlara.md"><img src="ports/openlara/boxart.png" width="150" alt="OpenLara floppy box art"><br><strong>OpenLara</strong></a></td>
     <td align="center"><a href="docs/setup/spacecadet.md"><img src="ports/spacecadet/boxart.png" width="150" alt="Space Cadet Pinball floppy box art"><br><strong>Space Cadet Pinball</strong></a></td>
     <td align="center"><a href="docs/setup/sorr.md"><img src="ports/sorr/boxart.png" width="150" alt="Streets of Rage Remake floppy box art"><br><strong>Streets of Rage Remake</strong></a></td>
@@ -42,20 +52,27 @@ archives.
   </tr>
 </table>
 
-### Synaps33 source forks
+## Source forks
 
-- [FroggyCraft](https://github.com/Synaps33/FroggyCraft) — ClassiCube
-- [FroggyDuke](https://github.com/Synaps33/FroggyDuke) — Duke Nukem 3D
-- [FroggyMania](https://github.com/Synaps33/FroggyMania) — FroggyMania
-- [FroggyPE](https://github.com/Synaps33/FroggyPE) — Minecraft PE
-- [FroggySpacePinbal](https://github.com/Synaps33/FroggySpacePinbal) — Space Cadet Pinball
-- [FroggyTale](https://github.com/Synaps33/FroggyTale) — Undertale
+Some ports are built from upstream game forks adapted for TreeFrogUI. Their sources are listed below.
+
+### Synaps33
+
+- [FroggyCraft](https://github.com/Synaps33/FroggyCraft) -- ClassiCube
+- [FroggyDDLC](https://github.com/Synaps33/FroggyDDLC) -- Doki Doki Literature Club
+- [FroggyDuke](https://github.com/Synaps33/FroggyDuke) -- Duke Nukem 3D
+- [FroggyMania](https://github.com/Synaps33/FroggyMania) -- FroggyMania
+- [FroggyPE](https://github.com/Synaps33/FroggyPE) -- Minecraft PE
+- [FroggySpacePinbal](https://github.com/Synaps33/FroggySpacePinbal) -- Space Cadet Pinball
+- [FroggyTale](https://github.com/Synaps33/FroggyTale) -- Undertale
+- [FroggyTux](https://github.com/Synaps33/FroggyTux) -- SuperTux
+- [FroggyTuxRacer](https://github.com/Synaps33/FroggyTuxRacer) -- Tux Racer
 
 ## Contributors
 
-- [Synaps33](https://github.com/Synaps33) — upstream game forks adapted for these ports; see the source links above.
-- [Kryptikone316](https://github.com/Kryptikone316) — Hydra Castle Labyrinth, Hex-a-hop, and SDL Zombies ([PRs #1](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/1), [#2](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/2), [#3](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/3), [#5](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/5)).
-- [Maheshivara](https://github.com/Maheshivara) — base box art and automatic port-table updates ([PRs #6](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/6), [#7](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/7)).
+- [Synaps33](https://github.com/Synaps33) -- upstream game forks adapted for these ports; see the source links above.
+- [Kryptikone316](https://github.com/Kryptikone316) -- Hydra Castle Labyrinth, Hex-a-hop, and SDL Zombies ([PRs #1](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/1), [#2](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/2), [#3](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/3), [#5](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/5)).
+- [Maheshivara](https://github.com/Maheshivara) -- base box art and automatic port-table updates ([PRs #6](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/6), [#7](https://github.com/tzubertowski/TreeFrogUI_PortsCollection/pull/7)).
 
 ## How to install
 
@@ -166,19 +183,19 @@ check.
 
 ### What each field means
 
-| Field | What to put there |
-|---|---|
-| `schema_version` | `1` for the current config format. |
-| `id` | The port folder name, in lowercase, such as `mygame`. This becomes its install folder. |
-| `name` | Friendly name shown in TreeFrogUI. |
-| `launcher` | Unique visible root entry ending in `.sh`, such as `My Game.sh`. The release builder generates this wrapper. |
-| `launch.type` | `native` for a standalone device executable, or `libretro` for a core started through `picoarch`. |
-| `launch.binary` | Filename of the port-local executable or core. Libretro cores must end in `_libretro.so`. |
-| `launch.content` | Optional port-local marker/content filename passed to the game. It must be included in the port folder or listed among required game files. |
-| `launch.args` | Optional extra arguments for a native executable. `run.sh` is the actual device launch command and must match this config. |
+| Field                | What to put there                                                                                                                                                      |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `schema_version`     | `1` for the current config format.                                                                                                                                     |
+| `id`                 | The port folder name, in lowercase, such as `mygame`. This becomes its install folder.                                                                                 |
+| `name`               | Friendly name shown in TreeFrogUI.                                                                                                                                     |
+| `launcher`           | Unique visible root entry ending in `.sh`, such as `My Game.sh`. The release builder generates this wrapper.                                                           |
+| `launch.type`        | `native` for a standalone device executable, or `libretro` for a core started through `picoarch`.                                                                      |
+| `launch.binary`      | Filename of the port-local executable or core. Libretro cores must end in `_libretro.so`.                                                                              |
+| `launch.content`     | Optional port-local marker/content filename passed to the game. It must be included in the port folder or listed among required game files.                            |
+| `launch.args`        | Optional extra arguments for a native executable. `run.sh` is the actual device launch command and must match this config.                                             |
 | `required_file_sets` | User-provided game files. An empty list means no extra game data. Each inner list is one complete acceptable set; multiple inner lists allow alternative file layouts. |
-| `setup_guide` | Repository path to the port's readable setup guide, usually `docs/setup/<id>.md`. |
-| `setup_guide_url` | HTTPS link to that guide. The missing-files screen opens this link's QR code. |
+| `setup_guide`        | Repository path to the port's readable setup guide, usually `docs/setup/<id>.md`.                                                                                      |
+| `setup_guide_url`    | HTTPS link to that guide. The missing-files screen opens this link's QR code.                                                                                          |
 
 ### Add a port
 

@@ -40,6 +40,9 @@
 [submodule "ports/sdlzombies/source"]
 	path = ports/sdlzombies/source
 	url = https://github.com/Kryptikone316/sdlzombies.git
+[submodule "ports/nikwi/source"]
+	path = ports/nikwi/source
+	url = https://github.com/Kryptikone316/nikwi.git
 [submodule "ports/sorr/source"]
 	path = ports/sorr/source
 	url = https://github.com/Kryptikone316/sorr-vita.git
@@ -49,3 +52,12 @@
 [submodule "ports/watercloset/source"]
 	path = ports/watercloset/source
 	url = https://github.com/Kryptikone316/waterCloset.git
+[submodule "ports/froggytuxracer/source"]
+	path = ports/froggytuxracer/source
+	url = https://github.com/Synaps33/FroggyTuxRacer.git
+[submodule "ports/froggytux/source"]
+	path = ports/froggytux/source
+	url = https://github.com/Synaps33/FroggyTux.git
+[submodule "ports/ddlc/source"]
+	path = ports/ddlc/source
+	url = https://github.com/Synaps33/FroggyDDLC.git

@@ -1,0 +1,7 @@
+# Nikwi Deluxe settings (plain text; edit and relaunch, no rebuild needed).
+#
+# fps: frame limit. The game moves its characters 50 times a second, so 50
+#      gives every frame exactly one step of movement, which looks smoothest
+#      and also leaves the processor idle between frames. 0 removes the limit
+#      (frames are drawn as fast as the device manages, about 57 a second).
+fps=50
