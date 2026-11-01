@@ -12,6 +12,8 @@ ZeniMax.
 * Quake is a trademark of id Software. Its game data (`pak0.pak`, `pak1.pak`,
   music and so on) is copyrighted, is **not included**, and is not covered by
   the GPL. Bring your own copy, for example from GOG or Steam.
+* The box art shows the Quake logo, a trademark of id Software, as a floppy-disk icon (fan art
+  by the port author). It is used here only to identify the game.
 * The shareware episode (`pak0.pak` from the free demo) is enough to try the port.
 * This software is provided as-is, without warranty of any kind. Use at your
   own risk.
