@@ -51,25 +51,32 @@ engine links the base game and the two add-ons into the core.
 
 ## Controls
 
-The layout follows the Quake port where the two games overlap:
+The layout follows the Quake port where the two games overlap, with a second
+layer on SELECT for the rest of Quake II's commands (the usual PC defaults are
+in the third column for reference).
 
-| Button | Action |
-|--|--|
-| D-Pad Up / Down | Walk forward / back |
-| D-Pad Left / Right | Turn |
-| Y | Fire |
-| B | Jump (menus: back) |
-| A | Next weapon (menus: select) |
-| X | Freelook: hold it and use D-Pad Up / Down to look up and down |
-| L / R | Strafe left / right |
-| L2 | Crouch |
-| R2 | Use the selected item |
-| SELECT | Next inventory item (the selected item shows in the status bar) |
-| START | Menu |
-| SELECT + START | Quit immediately |
+| Button | Action | PC default |
+|--|--|--|
+| D-Pad Up / Down | Walk forward / back | Up / Down |
+| D-Pad Left / Right | Turn | Left / Right |
+| Y | Fire | Ctrl |
+| B | Jump (menus: back) | Space |
+| A | Next weapon (menus: select) | mouse wheel |
+| X | Freelook: hold it and use D-Pad Up / Down to look up and down | A / Z |
+| L / R | Strafe left / right | , / . |
+| L2 | Crouch | C |
+| R2 | Use the selected item | Enter |
+| SELECT (tap) | Help computer (mission objectives) | F1 |
+| SELECT + L / R | Previous / next inventory item | [ / ] |
+| SELECT + A | Previous weapon | mouse wheel |
+| SELECT + B | Drop the selected item | ' |
+| SELECT + Y | Show the full inventory | Tab |
+| START | Menu (saving and loading are in it) | Esc |
+| SELECT + START | Quit immediately | |
 
-The player runs by default (the **Auto Run** core option). There is no analog
-stick, so turning is coarse.
+The player runs by default (the **Auto Run** core option), so there is no run
+button. There is no analog stick, so turning is coarse. The weapon number keys
+and the item shortcuts have no buttons; cycle with A and SELECT + A.
 
 ## Performance
 
