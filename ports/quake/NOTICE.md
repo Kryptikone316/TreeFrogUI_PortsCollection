@@ -15,5 +15,7 @@ ZeniMax.
 * The box art shows the Quake logo, a trademark of id Software, as a floppy-disk icon (fan art
   by the port author). It is used here only to identify the game.
 * The shareware episode (`pak0.pak` from the free demo) is enough to try the port.
+* Credits and the licence texts of the third-party code compiled into the core
+  (Xiph.Org codecs, libretro-common, libFLAC) are in `licenses/`.
 * This software is provided as-is, without warranty of any kind. Use at your
   own risk.
