@@ -41,15 +41,15 @@ A mod that ships as loose files (`progs.dat`, `maps/`, and so on) has to be
 packed into a `pak0.pak` first; any Quake PAK tool does this, and the folder
 name is the game directory name. The mod still needs `id1` for the base game.
 
-To start a pack, create a text file `roms/ports/quake/game.txt` containing one
-line with its `.pak` path, for example:
+When the port finds more than one game folder (each needs a `pak0.pak`), a small
+loader screen appears before the game starts and lists them: Quake, Scourge of
+Armagon, Dissolution of Eternity, and any mod by its folder name. D-Pad Up and
+Down choose, A starts, B (or SELECT + START) exits. Your choice is remembered
+in `roms/ports/quake/game.txt` and is highlighted the next time. With only
+Quake installed, the loader does not appear and the game starts straight away.
 
-```text
-hipnotic/pak0.pak
-```
-
-Delete the file (or put `id1/pak0.pak` in it) to go back to Quake. If the path
-does not exist, the port starts Quake.
+You can also edit `game.txt` yourself: one line with the `.pak` path, for
+example `hipnotic/pak0.pak`. A path that does not exist falls back to Quake.
 
 ## Controls
 

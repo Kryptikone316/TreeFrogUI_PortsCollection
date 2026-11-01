@@ -10,8 +10,16 @@ if ! /mnt/sdcard/cubegm/port_check.sh \
 cd "$PORT_DIR"
 rm -f /mnt/sdcard/cubegm/port_error.txt
 
-# game.txt (optional): one line with the .pak to start, relative to this folder, such as
-# hipnotic/pak0.pak, rogue/pak0.pak or a mod packed into <modname>/pak0.pak.
+# Game loader: lets the player pick Quake, a mission pack or a mod (any folder here with a
+# pak0.pak) and saves the choice in game.txt. It shows nothing when only Quake is
+# installed. Exit status 10 means the player chose Exit (or Select + Start).
+if [ -x ./quakeloader.mipsel ]; then
+    rc=0
+    ./quakeloader.mipsel "$PORT_DIR" game.txt >/dev/null 2>&1 || rc=$?
+    if [ "$rc" -eq 10 ]; then exit 0; fi
+fi
+
+# game.txt: one line, the .pak to start relative to this folder (id1/pak0.pak by default).
 GAME=id1/pak0.pak
 if [ -f "$PORT_DIR/game.txt" ]; then
     want=
