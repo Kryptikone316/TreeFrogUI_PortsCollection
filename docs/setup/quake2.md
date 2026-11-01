@@ -51,10 +51,25 @@ engine links the base game and the two add-ons into the core.
 
 ## Controls
 
-D-Pad Up and Down walk, Left and Right turn. R2 fires, Y selects the next
-weapon, L2 jumps, R crouches, L is the run toggle, SELECT shows the help
-screen, START opens the menu. In the menus, D-Pad moves, A selects and B goes
-back. There is no analog stick, so turning is coarse.
+The layout follows the Quake port where the two games overlap:
+
+| Button | Action |
+|--|--|
+| D-Pad Up / Down | Walk forward / back |
+| D-Pad Left / Right | Turn |
+| Y | Fire |
+| B | Jump (menus: back) |
+| A | Next weapon (menus: select) |
+| X | Freelook: hold it and use D-Pad Up / Down to look up and down |
+| L / R | Strafe left / right |
+| L2 | Crouch |
+| R2 | Use the selected item |
+| SELECT | Next inventory item (the selected item shows in the status bar) |
+| START | Menu |
+| SELECT + START | Quit immediately |
+
+The player runs by default (the **Auto Run** core option). There is no analog
+stick, so turning is coarse.
 
 ## Performance
 
