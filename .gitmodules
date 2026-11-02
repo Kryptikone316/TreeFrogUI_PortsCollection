@@ -67,3 +67,6 @@
 [submodule "ports/quake2/source"]
 	path = ports/quake2/source
 	url = https://github.com/Kryptikone316/treefrogui_vitaquake2.git
+[submodule "ports/blockdude/source"]
+	path = ports/blockdude/source
+	url = https://github.com/Kryptikone316/blockdude_funkey.git
