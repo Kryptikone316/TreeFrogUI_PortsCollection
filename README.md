@@ -27,7 +27,6 @@ Currently this repo has 21 available ports, as showed on the tables bellow.
   <tr>
     <td align="center"><a href="docs/setup/tinystg.md"><img src="ports/tinystg/boxart.png" width="150" alt="TinySTG floppy box art"><br><strong>TinySTG</strong></a></td>
     <td align="center"><a href="docs/setup/froggytuxracer.md"><img src="ports/froggytuxracer/boxart.png" width="150" alt="Tux Racer floppy box art"><br><strong>Tux Racer</strong></a></td>
-    <td align="center"><a href="docs/setup/watercloset.md"><img src="ports/watercloset/boxart.png" width="150" alt="Water Closet floppy box art"><br><strong>Water Closet</strong></a></td>
   </tr>
 </table>
 
