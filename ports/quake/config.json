@@ -1,0 +1,17 @@
+{
+  "$schema": "./../../docs/info/schemas/config/v1.schema.json",
+  "schema_version": 1,
+  "id": "quake",
+  "name": "Quake",
+  "launcher": "Quake.sh",
+  "launch": {
+    "type": "libretro",
+    "binary": "tyrquake_libretro.so",
+    "content": "id1/pak0.pak"
+  },
+  "required_file_sets": [
+    ["id1/pak0.pak"]
+  ],
+  "setup_guide": "docs/setup/quake.md",
+  "setup_guide_url": "https://github.com/tzubertowski/TreeFrogUI_PortsCollection/blob/main/docs/setup/quake.md"
+}

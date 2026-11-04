@@ -61,3 +61,6 @@
 [submodule "ports/ddlc/source"]
 	path = ports/ddlc/source
 	url = https://github.com/Synaps33/FroggyDDLC.git
+[submodule "ports/quake/source"]
+	path = ports/quake/source
+	url = https://github.com/Kryptikone316/tyrquake.git
