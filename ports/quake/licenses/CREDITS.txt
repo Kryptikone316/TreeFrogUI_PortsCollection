@@ -1,0 +1,23 @@
+Quake (Datafrog SF3500 port)
+
+Engine: TyrQuake by Kevin Shanahan, based on id Software's Quake source release,
+  with the libretro core by the libretro team and contributors,
+  https://github.com/libretro/tyrquake
+  GNU General Public License, version 2 or later (../LICENSE-TYRQUAKE).
+SF3500 changes (build flags, string-reference repair, joypad binds, real-time audio,
+  hunk sizing, logging, the game loader): AthruZ,
+  https://github.com/Kryptikone316/tyrquake (branch sf3500). Distributed under the
+  same GPL terms as the rest of the program.
+Game: Quake, id Software, 1996. No game data is included: pak0.pak and pak1.pak,
+  the mission packs and the music are the player's own. Quake is a trademark of
+  id Software; the box art shows its logo as a floppy-disk icon (fan art by the
+  port author) only to identify the game.
+Third-party code compiled into the core: libFLAC, libogg, libvorbis and Tremor
+  (BSD-style licences, Xiph.Org Foundation) and libretro-common (MIT). Their
+  licence texts are in THIRD-PARTY.txt.
+Game loader (quakeloader.mipsel): written for this port. Its display wrapper and
+  gamepad reader are the small modules shared by the SF3500 ports, derived from
+  TreeFrogUI's pico286 SF3000 patch; its fallback font is font8x8 by Daniel
+  Hepper, public domain (font8x8-license.txt).
+
+Source code for this port is the pinned "source" submodule of this repository.
