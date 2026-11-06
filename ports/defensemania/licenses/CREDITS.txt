@@ -7,14 +7,20 @@ Game
   Source: https://github.com/DefenseMania/defense-mania
   Graphics: https://github.com/DefenseMania/defense-mania-graphics (MIT licence, same text).
   The SF3500 port (native C++ translation, display, audio and pad glue, extra maps, difficulty
-  progression, endless mode, scores) is in the sf3500 branch of
+  progression, endless mode, scores, the Bastion and the other additions below) is in the sf3500 branch of
   https://github.com/Kryptikone316/defense-mania and is under the same MIT licence.
   The display, audio and pad glue is derived from TreeFrogUI's pico286 SF3000 patch.
 
 Maps
-  Mountains, The Maze, Dark Woods, River Side and Bigger are the original game's.
-  The Swamp and The Tundra were made for this port from the original's tiles
-  (tools/make_swamp.py, tools/make_tundra.py in the source repository); same MIT licence.
+  Mountains, The Maze, Dark Woods, River Side and Bigger are the original game's (The Maze has a
+  northern loop that creatures may now walk). The Swamp, The Tundra and The Coast were made for this
+  port from the original's tiles and procedural art (tools/make_swamp.py, tools/make_tundra.py and
+  tools/make_coast.py in the source repository); same MIT licence.
+
+Made for this port (same MIT licence)
+  The Bastion and its research, actions and doctrines; the soldiers (their models are rendered in
+  Blender by tools/blender/ in the source repository); the path traps; the Resupply Depot; the new
+  creatures (recoloured from the original's sheets); the per-map HUD planks and the gold icon.
 
 Sound effects (data/sfx)
   Synthesised by tools/make_sfx.py in the source repository. CC0.

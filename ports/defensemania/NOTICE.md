@@ -8,10 +8,13 @@ This is an unofficial port of **Defense Mania** by Kris Siepert (kriskbx) to the
   (`licenses/defense-mania-LICENSE.txt`; the graphics have their own repository,
   https://github.com/DefenseMania/defense-mania-graphics, with the same MIT licence). The SF3500
   changes are in the `sf3500` branch of the source submodule and are under the same licence.
-* Added for this port and under the same MIT licence: the two extra maps (The Swamp, redrawn from
-  the original's tiles, and The Tundra, generated from them by `tools/make_tundra.py`), the
-  difficulty progression, endless mode, the scores screens, and the sound effects, which are
-  synthesised by `tools/make_sfx.py` (CC0).
+* Added for this port and under the same MIT licence: the Bastion (its research, actions and doctrines),
+  the four kinds of soldier, the path traps, the Resupply Depot, the new creatures and the extra
+  Ballista and depot art, the three extra maps (The Swamp, redrawn from the original's tiles, and The
+  Tundra and The Coast, painted by scripts from them), the per-map HUD planks and the gold icon, the
+  difficulty progression, Endless mode, the scores screens, and the sound effects, which are
+  synthesised by `tools/make_sfx.py` (CC0). The soldiers and the keep were modelled and rendered in
+  Blender by `tools/blender/` in the source repository; the renders are original work.
 * The original asks for the proprietary fonts Arial and Arial Black. This port uses the Bitter font
   that ships with the game (SIL Open Font Licence 1.1, `licenses/Bitter-OFL.txt`) and the DejaVu
   fonts (`licenses/DejaVu-fonts-LICENSE.txt`).
