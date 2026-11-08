@@ -11,20 +11,21 @@ archives.
 
 ## Supported ports
 
-Currently this repo has 23 available ports, as showed on the tables bellow.
+Currently this repo has 24 available ports, as showed on the tables bellow.
 
 ### Standalone ports
 
 <table>
   <tr>
+    <td align="center"><a href="docs/setup/blockdude.md"><img src="ports/blockdude/boxart.png" width="150" alt="Blockdude floppy box art"><br><strong>Blockdude</strong></a></td>
     <td align="center"><a href="docs/setup/chocolatedoom.md"><img src="ports/chocolatedoom/boxart.png" width="150" alt="Chocolate Doom floppy box art"><br><strong>Chocolate Doom</strong></a></td>
     <td align="center"><a href="docs/setup/classicube.md"><img src="ports/classicube/boxart.png" width="150" alt="ClassiCube floppy box art"><br><strong>ClassiCube</strong></a></td>
     <td align="center"><a href="docs/setup/hexahop.md"><img src="ports/hexahop/boxart.png" width="150" alt="Hex-a-hop floppy box art"><br><strong>Hex-a-hop</strong></a></td>
     <td align="center"><a href="docs/setup/nikwi.md"><img src="ports/nikwi/boxart.png" width="150" alt="Nikwi Deluxe floppy box art"><br><strong>Nikwi Deluxe</strong></a></td>
     <td align="center"><a href="docs/setup/sdlzombies.md"><img src="ports/sdlzombies/boxart.png" width="150" alt="SDL Zombies floppy box art"><br><strong>SDL Zombies</strong></a></td>
-    <td align="center"><a href="docs/setup/froggytux.md"><img src="ports/froggytux/boxart.png" width="150" alt="SuperTux floppy box art"><br><strong>SuperTux</strong></a></td>
   </tr>
   <tr>
+    <td align="center"><a href="docs/setup/froggytux.md"><img src="ports/froggytux/boxart.png" width="150" alt="SuperTux floppy box art"><br><strong>SuperTux</strong></a></td>
     <td align="center"><a href="docs/setup/tinystg.md"><img src="ports/tinystg/boxart.png" width="150" alt="TinySTG floppy box art"><br><strong>TinySTG</strong></a></td>
     <td align="center"><a href="docs/setup/froggytuxracer.md"><img src="ports/froggytuxracer/boxart.png" width="150" alt="Tux Racer floppy box art"><br><strong>Tux Racer</strong></a></td>
     <td align="center"><a href="docs/setup/watercloset.md"><img src="ports/watercloset/boxart.png" width="150" alt="Water Closet floppy box art"><br><strong>Water Closet</strong></a></td>
