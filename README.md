@@ -11,7 +11,7 @@ archives.
 
 ## Supported ports
 
-Currently this repo has 21 available ports, as showed on the tables bellow.
+Currently this repo has 23 available ports, as showed on the tables bellow.
 
 ### Standalone ports
 
@@ -27,6 +27,7 @@ Currently this repo has 21 available ports, as showed on the tables bellow.
   <tr>
     <td align="center"><a href="docs/setup/tinystg.md"><img src="ports/tinystg/boxart.png" width="150" alt="TinySTG floppy box art"><br><strong>TinySTG</strong></a></td>
     <td align="center"><a href="docs/setup/froggytuxracer.md"><img src="ports/froggytuxracer/boxart.png" width="150" alt="Tux Racer floppy box art"><br><strong>Tux Racer</strong></a></td>
+    <td align="center"><a href="docs/setup/watercloset.md"><img src="ports/watercloset/boxart.png" width="150" alt="Water Closet floppy box art"><br><strong>Water Closet</strong></a></td>
   </tr>
 </table>
 
@@ -45,11 +46,12 @@ Currently this repo has 21 available ports, as showed on the tables bellow.
     <td align="center"><a href="docs/setup/mcpe.md"><img src="ports/mcpe/boxart.png" width="150" alt="Minecraft PE floppy box art"><br><strong>Minecraft PE</strong></a></td>
     <td align="center"><a href="docs/setup/openlara.md"><img src="ports/openlara/boxart.png" width="150" alt="OpenLara floppy box art"><br><strong>OpenLara</strong></a></td>
     <td align="center"><a href="docs/setup/quake.md"><img src="ports/quake/boxart.png" width="150" alt="Quake floppy box art"><br><strong>Quake</strong></a></td>
+    <td align="center"><a href="docs/setup/quake2.md"><img src="ports/quake2/boxart.png" width="150" alt="Quake II floppy box art"><br><strong>Quake II</strong></a></td>
     <td align="center"><a href="docs/setup/spacecadet.md"><img src="ports/spacecadet/boxart.png" width="150" alt="Space Cadet Pinball floppy box art"><br><strong>Space Cadet Pinball</strong></a></td>
     <td align="center"><a href="docs/setup/sorr.md"><img src="ports/sorr/boxart.png" width="150" alt="Streets of Rage Remake floppy box art"><br><strong>Streets of Rage Remake</strong></a></td>
-    <td align="center"><a href="docs/setup/undertale.md"><img src="ports/undertale/boxart.png" width="150" alt="Undertale floppy box art"><br><strong>Undertale</strong></a></td>
   </tr>
   <tr>
+    <td align="center"><a href="docs/setup/undertale.md"><img src="ports/undertale/boxart.png" width="150" alt="Undertale floppy box art"><br><strong>Undertale</strong></a></td>
     <td align="center"><a href="docs/setup/vvvvvv.md"><img src="ports/vvvvvv/boxart.png" width="150" alt="VVVVVV floppy box art"><br><strong>VVVVVV</strong></a></td>
   </tr>
 </table>
