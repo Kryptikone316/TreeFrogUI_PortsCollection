@@ -1,0 +1,16 @@
+{
+  "$schema": "./../../docs/info/schemas/config/v1.schema.json",
+  "schema_version": 1,
+  "id": "skifree",
+  "name": "SkiFree",
+  "launcher": "SkiFree.sh",
+  "launch": {
+    "type": "native",
+    "binary": "skifree.mipsel"
+  },
+  "required_file_sets": [
+    ["gamedata/ski32.exe"]
+  ],
+  "setup_guide": "docs/setup/skifree.md",
+  "setup_guide_url": "https://github.com/tzubertowski/TreeFrogUI_PortsCollection/blob/main/docs/setup/skifree.md"
+}

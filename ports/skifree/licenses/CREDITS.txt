@@ -1,0 +1,23 @@
+SkiFree (Datafrog SF3500 port): the game's art is NOT included
+
+This package contains the port's program, launcher, sounds and sprite packs. The game's own artwork is
+not included: players put their own copy of ski32.exe (version 1.04, from https://ski.ihoc.net/) in
+gamedata/, and the port reads the sprites from it. SkiFree is by Chris Pirih (1991); the game's site
+states no licence or redistribution terms.
+
+Game code: a decompilation of SkiFree 1.04 by Eric Fry (https://github.com/yuv422/skifree_decomp), through
+  jeff-1amstudios's SDL conversion (https://github.com/jeff-1amstudios/skifree_sdl). Neither states a licence.
+SF3500 platform backend, launcher, themes, sounds, sprite packs and generator scripts: AthruZ,
+  https://github.com/Kryptikone316/skifree_sdl (branch sf3500). The assets made for this port (sounds,
+  sprite packs, launcher art, box art) are under the MIT license: LICENSE-ASSETS.txt. The box art shows
+  SkiFree's own logo and characters, which remain Chris Pirih's. See NOTICE.md in the source.
+Text font: font8x8 by Daniel Hepper (https://github.com/dhepper/font8x8), public domain.
+Device selection through /tmp/tfdevice.env: from TreeFrogUI's hijack script (zhijack.tpl.sh), pointed out
+  by Maheshivara. The display, audio, pad and mixer modules (hwdisp, hwaudio, joykey, sf3500_mixer) are glue
+  code derived from TreeFrogUI's pico286 SF3000 patch, used under the permission recorded in the Ports
+  Collection submissions.
+SDL2 is provided by the device's firmware and linked dynamically; it is not included here.
+The TI-92 theme was inspired by Michael Holt (psigoo)'s SkiFree for the TI-89 / TI-92 Plus
+  (http://calc.psigoo.com); none of his work is used.
+
+Source code for this port is the pinned "source" submodule of the Ports Collection.
