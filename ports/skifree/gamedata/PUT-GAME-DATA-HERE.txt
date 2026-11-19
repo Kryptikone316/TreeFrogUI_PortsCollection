@@ -1,0 +1,5 @@
+Put the game's ski32.exe in this folder (version 1.04, from https://ski.ihoc.net/).
+The port does not include the game's artwork; it reads it from your copy.
+
+Settings (skifree.txt) and your own sounds (sounds/custom/) live here too, so
+everything you add or the game saves stays out of the files the port ships.

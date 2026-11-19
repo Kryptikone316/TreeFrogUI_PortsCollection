@@ -73,3 +73,6 @@
 [submodule "ports/blockdude/source"]
 	path = ports/blockdude/source
 	url = https://github.com/Kryptikone316/blockdude_funkey.git
+[submodule "ports/skifree/source"]
+	path = ports/skifree/source
+	url = https://github.com/Kryptikone316/skifree_sdl.git
