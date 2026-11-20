@@ -82,3 +82,6 @@
 [submodule "ports/gorillas/source"]
 	path = ports/gorillas/source
 	url = https://github.com/Kryptikone316/gorillas-port.git
+[submodule "ports/gweled/source"]
+	path = ports/gweled/source
+	url = https://github.com/Kryptikone316/gweled-port.git
