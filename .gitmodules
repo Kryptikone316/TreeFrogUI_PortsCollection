@@ -85,3 +85,6 @@
 [submodule "ports/gweled/source"]
 	path = ports/gweled/source
 	url = https://github.com/Kryptikone316/gweled-port.git
+[submodule "ports/minesperfect/source"]
+	path = ports/minesperfect/source
+	url = https://github.com/Kryptikone316/mines-perfect-port.git
