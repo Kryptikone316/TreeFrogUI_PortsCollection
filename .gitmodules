@@ -88,3 +88,6 @@
 [submodule "ports/minesperfect/source"]
 	path = ports/minesperfect/source
 	url = https://github.com/Kryptikone316/mines-perfect-port.git
+[submodule "ports/formido/source"]
+	path = ports/formido/source
+	url = https://github.com/Kryptikone316/formido-port.git
