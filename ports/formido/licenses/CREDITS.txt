@@ -1,0 +1,16 @@
+Formido on the Datafrog SF3500
+
+Formido 1.0.1 (c) 2002, 2003 Mika Halttunen: game design, programming, artwork.
+  Released under the GNU General Public License, version 2 or (at your option) any later version.
+  https://mhgames.org/formido/
+Music: Josh Schroeder (credited in the game's own credits and README; distributed by the author inside the
+  game's GPL release, unmodified here).
+
+SF3500 port and the enhanced game (c) AthruZ, GPL-2.0-or-later: controls, menus, the enhanced game (cross-shaped map,
+  power cells, bug ranks, the Hive Tyrant, traps, bunker, flamethrower, rank), the synthesised sounds, tools.
+Display, audio and gamepad glue: derived from TreeFrogUI's pico286 SF3000 patch.
+stb_image.h and stb_vorbis.h: Sean Barrett, public domain / MIT.
+SDL 1.2 is used from the device and is not bundled.
+
+Source: https://github.com/Kryptikone316/formido-port (the pinned submodule in this port's `source/` folder).
+Full provenance table: NOTICE.md.
