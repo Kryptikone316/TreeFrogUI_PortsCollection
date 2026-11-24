@@ -1,0 +1,14 @@
+{
+  "$schema": "./../../docs/info/schemas/config/v1.schema.json",
+  "schema_version": 1,
+  "id": "bad-onion",
+  "name": "Bad Onion",
+  "launcher": "Bad Onion.sh",
+  "launch": {
+    "type": "native",
+    "binary": "fxi.mipsel"
+  },
+  "required_file_sets": [],
+  "setup_guide": "docs/setup/bad-onion.md",
+  "setup_guide_url": "https://github.com/tzubertowski/TreeFrogUI_PortsCollection/blob/main/docs/setup/bad-onion.md"
+}
