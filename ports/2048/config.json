@@ -1,0 +1,15 @@
+{
+  "$schema": "./../../docs/info/schemas/config/v1.schema.json",
+  "schema_version": 1,
+  "id": "2048",
+  "name": "2048",
+  "launcher": "2048.sh",
+  "launch": {
+    "type": "libretro",
+    "binary": "2048_libretro.so",
+    "content": "2048.dat"
+  },
+  "required_file_sets": [],
+  "setup_guide": "docs/setup/2048.md",
+  "setup_guide_url": "https://github.com/tzubertowski/TreeFrogUI_PortsCollection/blob/main/docs/setup/2048.md"
+}
