@@ -1,0 +1,18 @@
+Altitude
+  Original game (c) Daniel "Imerion" Eriksson (NeoTron Games). Free to share, content unchanged, not for sale
+  (game/Readme.txt).
+
+Altitude for the SF3500 (launcher, computer opponent, pause, score tracker, scripts, packaging)
+  (c) 2026 AthruZ (Kryptikone316)   Unlicense (LICENSE)
+
+Runtime
+  BennuGD / Fenix: (c) SplinterGU and the Fenix team, zlib licence (bennugd.txt). The tree used here comes from the
+  Vita SoRR port by Sarcastic Cat and is modified, so it is not the original software.
+  SDL2 and SDL2_mixer (zlib licence), zlib (zlib licence), libpng (libpng licence), libxmp-lite (MIT).
+  The SF3500 display, audio and gamepad layer (runtime/src/sf3500/ and the input bridge in
+  runtime/sf3500/sdl2-2.0.14-sf3500.patch) is derived from TreeFrogUI's pico286 SF3000 patch and picoarch's
+  SF3000 code.
+
+Launcher text
+  Rendered from DejaVu Sans Bold and DejaVu Sans Condensed Bold glyphs (c) Bitstream, Inc.; DejaVu changes are
+  public domain. See dejavu-fonts.txt.
