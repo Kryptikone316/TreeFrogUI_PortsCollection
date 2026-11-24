@@ -79,3 +79,6 @@
 [submodule "ports/2048/source"]
 	path = ports/2048/source
 	url = https://github.com/Kryptikone316/2048-port.git
+[submodule "ports/gorillas/source"]
+	path = ports/gorillas/source
+	url = https://github.com/Kryptikone316/gorillas-port.git
