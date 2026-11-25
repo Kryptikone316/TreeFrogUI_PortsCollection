@@ -94,3 +94,6 @@
 [submodule "ports/neotron-altitude/source"]
 	path = ports/neotron-altitude/source
 	url = https://github.com/Kryptikone316/Neotron-Altitude-port.git
+[submodule "ports/psychosomnium/source"]
+	path = ports/psychosomnium/source
+	url = https://github.com/Kryptikone316/Psychosomnium-port.git
