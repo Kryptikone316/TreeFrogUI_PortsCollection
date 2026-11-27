@@ -97,3 +97,9 @@
 [submodule "ports/dead-mobsters/source"]
 	path = ports/dead-mobsters/source
 	url = https://github.com/Kryptikone316/dead-mobsters-port.git
+[submodule "ports/psychosomnium/source"]
+	path = ports/psychosomnium/source
+	url = https://github.com/Kryptikone316/Psychosomnium-port.git
+[submodule "ports/bad-onion/source"]
+	path = ports/bad-onion/source
+	url = https://github.com/Kryptikone316/bad-onion-port.git
