@@ -94,3 +94,6 @@
 [submodule "ports/neotron-altitude/source"]
 	path = ports/neotron-altitude/source
 	url = https://github.com/Kryptikone316/Neotron-Altitude-port.git
+[submodule "ports/bad-onion/source"]
+	path = ports/bad-onion/source
+	url = https://github.com/Kryptikone316/bad-onion-port.git
