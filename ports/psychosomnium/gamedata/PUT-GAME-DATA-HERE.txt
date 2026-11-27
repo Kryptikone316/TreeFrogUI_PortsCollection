@@ -1,0 +1,3 @@
+Put psycho.exe (Psychosomnium, 2008) in this folder, then start the port.
+The first start unpacks the game data into the "cache" folder here.
+Setup guide: https://github.com/tzubertowski/TreeFrogUI_PortsCollection/blob/main/docs/setup/psychosomnium.md
